@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "YouTube用再生速度コントロール"
+  },
+  "extDescription": {
+    "message": "YouTubeのデフォルト再生速度を設定し、動画やページごとのカスタム速度を記憶します。"
+  },
+  "actionTitle": {
+    "message": "再生速度"
+  },
+  "appTitle": {
+    "message": "再生速度"
+  },
+  "pageSectionTitle": {
+    "message": "このページ"
+  },
+  "loadingText": {
+    "message": "読み込み中..."
+  },
+  "resetBtn": {
+    "message": "リセット"
+  },
+  "notYoutubeHint": {
+    "message": "このページ専用の速度を設定するには、YouTubeの動画を開いてください。"
+  },
+  "notOnYoutube": {
+    "message": "YouTube以外"
+  },
+  "savedPrefix": {
+    "message": "保存済み"
+  },
+  "savedForPage": {
+    "message": "このページ用に保存済み"
+  },
+  "defaultPrefix": {
+    "message": "デフォルト"
+  },
+  "usingDefault": {
+    "message": "デフォルト速度を使用中"
+  },
+  "defaultSectionTitle": {
+    "message": "デフォルト速度"
+  },
+  "defaultSectionSub": {
+    "message": "すべての新しい動画に適用"
+  },
+  "savedCount": {
+    "message": "保存済みページ: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "消去"
+  }
+}

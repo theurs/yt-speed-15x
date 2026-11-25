@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Playback Speed for YouTube"
+  },
+  "extDescription": {
+    "message": "Set a default playback speed on YouTube and remember custom speeds per video or page."
+  },
+  "actionTitle": {
+    "message": "Playback Speed"
+  },
+  "appTitle": {
+    "message": "Playback Speed"
+  },
+  "pageSectionTitle": {
+    "message": "This page"
+  },
+  "loadingText": {
+    "message": "Loading..."
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "notYoutubeHint": {
+    "message": "Open a YouTube video to set a custom speed for that page."
+  },
+  "notOnYoutube": {
+    "message": "Not on YouTube"
+  },
+  "savedPrefix": {
+    "message": "Saved"
+  },
+  "savedForPage": {
+    "message": "Saved for this page"
+  },
+  "defaultPrefix": {
+    "message": "Default"
+  },
+  "usingDefault": {
+    "message": "Using default speed"
+  },
+  "defaultSectionTitle": {
+    "message": "Default speed"
+  },
+  "defaultSectionSub": {
+    "message": "For all new videos"
+  },
+  "savedCount": {
+    "message": "Saved pages: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Clear"
+  }
+}

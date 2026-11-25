@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Velocidade de reprodução para YouTube"
+  },
+  "extDescription": {
+    "message": "Defina uma velocidade de reprodução padrão no YouTube e memorize velocidades personalizadas por vídeo ou página."
+  },
+  "actionTitle": {
+    "message": "Velocidade do vídeo"
+  },
+  "appTitle": {
+    "message": "Velocidade do vídeo"
+  },
+  "pageSectionTitle": {
+    "message": "Esta página"
+  },
+  "loadingText": {
+    "message": "Carregando..."
+  },
+  "resetBtn": {
+    "message": "Redefinir"
+  },
+  "notYoutubeHint": {
+    "message": "Abra um vídeo do YouTube para definir uma velocidade personalizada para esta página."
+  },
+  "notOnYoutube": {
+    "message": "Fora do YouTube"
+  },
+  "savedPrefix": {
+    "message": "Salvo"
+  },
+  "savedForPage": {
+    "message": "Salvo para esta página"
+  },
+  "defaultPrefix": {
+    "message": "Padrão"
+  },
+  "usingDefault": {
+    "message": "Usando velocidade padrão"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocidade padrão"
+  },
+  "defaultSectionSub": {
+    "message": "Para todos os novos vídeos"
+  },
+  "savedCount": {
+    "message": "Páginas salvas: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Limpar"
+  }
+}

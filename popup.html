@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="appTitle">Playback Speed</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <img src="icon.svg" alt="" class="logo">
+        <span class="title" data-i18n="appTitle">Playback Speed</span>
+      </div>
+      <span id="activeBadge" class="badge">1.5×</span>
+    </header>
+
+    <section id="pageSection" class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="pageSectionTitle">This page</div>
+          <div id="pageSubtitle" class="card-sub" data-i18n="loadingText">Loading...</div>
+        </div>
+        <button id="resetPageBtn" class="link-btn hidden" type="button" data-i18n="resetBtn">Reset</button>
+      </div>
+      <div id="pageSpeedGrid" class="grid"></div>
+      <div id="notYoutubeHint" class="empty-hint hidden" data-i18n="notYoutubeHint">
+        Open a YouTube video to set a custom speed for that page.
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="defaultSectionTitle">Default speed</div>
+          <div class="card-sub" data-i18n="defaultSectionSub">For all new videos</div>
+        </div>
+      </div>
+      <div id="defaultSpeedGrid" class="grid"></div>
+    </section>
+
+    <footer id="footerBar" class="footer hidden">
+      <span id="savedCountText"></span>
+      <button id="clearAllBtn" class="link-btn danger" type="button" data-i18n="clearBtn">Clear</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

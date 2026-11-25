@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Kecepatan Pemutaran untuk YouTube"
+  },
+  "extDescription": {
+    "message": "Atur kecepatan pemutaran default di YouTube dan simpan kecepatan khusus untuk setiap video atau halaman."
+  },
+  "actionTitle": {
+    "message": "Kecepatan Putar"
+  },
+  "appTitle": {
+    "message": "Kecepatan Putar"
+  },
+  "pageSectionTitle": {
+    "message": "Halaman ini"
+  },
+  "loadingText": {
+    "message": "Memuat..."
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "notYoutubeHint": {
+    "message": "Buka video YouTube untuk mengatur kecepatan khusus bagi halaman ini."
+  },
+  "notOnYoutube": {
+    "message": "Tidak di YouTube"
+  },
+  "savedPrefix": {
+    "message": "Tersimpan"
+  },
+  "savedForPage": {
+    "message": "Tersimpan untuk halaman ini"
+  },
+  "defaultPrefix": {
+    "message": "Default"
+  },
+  "usingDefault": {
+    "message": "Menggunakan kecepatan default"
+  },
+  "defaultSectionTitle": {
+    "message": "Kecepatan default"
+  },
+  "defaultSectionSub": {
+    "message": "Untuk semua video baru"
+  },
+  "savedCount": {
+    "message": "Halaman tersimpan: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Hapus"
+  }
+}

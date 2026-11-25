@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "YouTube के लिए प्लेबैक स्पीड"
+  },
+  "extDescription": {
+    "message": "YouTube पर डिफ़ॉल्ट प्लेबैक स्पीड सेट करें और हर वीडियो या पेज के लिए अलग स्पीड याद रखें।"
+  },
+  "actionTitle": {
+    "message": "प्लेबैक स्पीड"
+  },
+  "appTitle": {
+    "message": "प्लेबैक स्पीड"
+  },
+  "pageSectionTitle": {
+    "message": "यह पेज"
+  },
+  "loadingText": {
+    "message": "लोड हो रहा है..."
+  },
+  "resetBtn": {
+    "message": "रीसेट करें"
+  },
+  "notYoutubeHint": {
+    "message": "इस पेज के लिए अलग स्पीड सेट करने हेतु YouTube वीडियो खोलें।"
+  },
+  "notOnYoutube": {
+    "message": "YouTube पर नहीं"
+  },
+  "savedPrefix": {
+    "message": "सहेजा गया"
+  },
+  "savedForPage": {
+    "message": "इस पेज के लिए सहेजा गया"
+  },
+  "defaultPrefix": {
+    "message": "डिफ़ॉल्ट"
+  },
+  "usingDefault": {
+    "message": "डिफ़ॉल्ट स्पीड का उपयोग हो रहा है"
+  },
+  "defaultSectionTitle": {
+    "message": "डिफ़ॉल्ट स्पीड"
+  },
+  "defaultSectionSub": {
+    "message": "सभी नए वीडियो के लिए"
+  },
+  "savedCount": {
+    "message": "सहेजे गए पेज: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "साफ़ करें"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Toistonopeus YouTubeen"
+  },
+  "extDescription": {
+    "message": "Aseta oletustoistonopeus YouTubessa ja muista mukautetut nopeudet video- tai sivukohtaisesti."
+  },
+  "actionTitle": {
+    "message": "Toistonopeus"
+  },
+  "appTitle": {
+    "message": "Toistonopeus"
+  },
+  "pageSectionTitle": {
+    "message": "Tämä sivu"
+  },
+  "loadingText": {
+    "message": "Ladataan..."
+  },
+  "resetBtn": {
+    "message": "Palauta"
+  },
+  "notYoutubeHint": {
+    "message": "Avaa YouTube-video asettaaksesi mukautetun nopeuden tälle sivulle."
+  },
+  "notOnYoutube": {
+    "message": "Et ole YouTubessa"
+  },
+  "savedPrefix": {
+    "message": "Tallennettu"
+  },
+  "savedForPage": {
+    "message": "Tallennettu tälle sivulle"
+  },
+  "defaultPrefix": {
+    "message": "Oletus"
+  },
+  "usingDefault": {
+    "message": "Käytetään oletusnopeutta"
+  },
+  "defaultSectionTitle": {
+    "message": "Oletusnopeus"
+  },
+  "defaultSectionSub": {
+    "message": "Kaikille uusille videoille"
+  },
+  "savedCount": {
+    "message": "Tallennetut sivut: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Tyhjennä"
+  }
+}

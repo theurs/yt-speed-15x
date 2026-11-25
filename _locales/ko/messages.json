@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "YouTube용 재생 속도"
+  },
+  "extDescription": {
+    "message": "YouTube 기본 재생 속도를 설정하고 동영상 또는 페이지별 사용자 지정 속도를 기억합니다."
+  },
+  "actionTitle": {
+    "message": "재생 속도"
+  },
+  "appTitle": {
+    "message": "재생 속도"
+  },
+  "pageSectionTitle": {
+    "message": "현재 페이지"
+  },
+  "loadingText": {
+    "message": "불러오는 중..."
+  },
+  "resetBtn": {
+    "message": "초기화"
+  },
+  "notYoutubeHint": {
+    "message": "이 페이지의 개별 속도를 설정하려면 YouTube 동영상을 여세요."
+  },
+  "notOnYoutube": {
+    "message": "YouTube가 아님"
+  },
+  "savedPrefix": {
+    "message": "저장됨"
+  },
+  "savedForPage": {
+    "message": "이 페이지에 저장됨"
+  },
+  "defaultPrefix": {
+    "message": "기본값"
+  },
+  "usingDefault": {
+    "message": "기본 속도 사용 중"
+  },
+  "defaultSectionTitle": {
+    "message": "기본 속도"
+  },
+  "defaultSectionSub": {
+    "message": "모든 새 동영상에 적용"
+  },
+  "savedCount": {
+    "message": "저장된 페이지: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "지우기"
+  }
+}
