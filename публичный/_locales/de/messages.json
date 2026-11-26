@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "Wiedergabegeschwindigkeit für YouTube"
+  },
+  "extDescription": {
+    "message": "Lege eine Standard-Wiedergabegeschwindigkeit auf YouTube fest und speichere individuelle Geschwindigkeiten pro Video oder Seite."
+  },
+  "actionTitle": {
+    "message": "Wiedergabetempo"
+  },
+  "appTitle": {
+    "message": "Wiedergabetempo"
+  },
+  "pageSectionTitle": {
+    "message": "Diese Seite"
+  },
+  "loadingText": {
+    "message": "Wird geladen..."
+  },
+  "resetBtn": {
+    "message": "Zurücksetzen"
+  },
+  "notYoutubeHint": {
+    "message": "Öffne ein YouTube-Video, um für diese Seite eine eigene Geschwindigkeit festzulegen."
+  },
+  "notOnYoutube": {
+    "message": "Nicht auf YouTube"
+  },
+  "savedPrefix": {
+    "message": "Gespeichert"
+  },
+  "savedForPage": {
+    "message": "Für diese Seite gespeichert"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Verwendet Standardgeschwindigkeit"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardgeschwindigkeit"
+  },
+  "defaultSectionSub": {
+    "message": "Für alle neuen Videos"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard für Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Für alle neuen Shorts"
+  },
+  "savedCount": {
+    "message": "Gespeicherte Seiten: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Löschen"
+  }
+}

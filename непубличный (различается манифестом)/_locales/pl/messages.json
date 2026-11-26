@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "Prędkość odtwarzania dla YouTube"
+  },
+  "extDescription": {
+    "message": "Ustaw domyślną prędkość odtwarzania na YouTube i zapamiętuj własne prędkości dla poszczególnych filmów lub stron."
+  },
+  "actionTitle": {
+    "message": "Prędkość wideo"
+  },
+  "appTitle": {
+    "message": "Prędkość wideo"
+  },
+  "pageSectionTitle": {
+    "message": "Ta strona"
+  },
+  "loadingText": {
+    "message": "Ładowanie..."
+  },
+  "resetBtn": {
+    "message": "Resetuj"
+  },
+  "notYoutubeHint": {
+    "message": "Otwórz film na YouTube, aby ustawić własną prędkość dla tej strony."
+  },
+  "notOnYoutube": {
+    "message": "Poza YouTube"
+  },
+  "savedPrefix": {
+    "message": "Zapisano"
+  },
+  "savedForPage": {
+    "message": "Zapisano dla tej strony"
+  },
+  "defaultPrefix": {
+    "message": "Domyślna"
+  },
+  "usingDefault": {
+    "message": "Używa domyślnej prędkości"
+  },
+  "defaultSectionTitle": {
+    "message": "Domyślna prędkość"
+  },
+  "defaultSectionSub": {
+    "message": "Dla wszystkich nowych filmów"
+  },
+  "shortsSectionTitle": {
+    "message": "Domyślna dla Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Dla wszystkich nowych Shorts"
+  },
+  "savedCount": {
+    "message": "Zapisane strony: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Wyczyść"
+  }
+}

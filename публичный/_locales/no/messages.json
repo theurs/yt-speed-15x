@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "Avspillingshastighet for YouTube"
+  },
+  "extDescription": {
+    "message": "Angi en standard avspillingshastighet på YouTube og husk egendefinerte hastigheter for hver video eller side."
+  },
+  "actionTitle": {
+    "message": "Avspillingshastighet"
+  },
+  "appTitle": {
+    "message": "Avspillingshastighet"
+  },
+  "pageSectionTitle": {
+    "message": "Denne siden"
+  },
+  "loadingText": {
+    "message": "Laster..."
+  },
+  "resetBtn": {
+    "message": "Tilbakestill"
+  },
+  "notYoutubeHint": {
+    "message": "Åpne en YouTube-video for å angi en egendefinert hastighet for siden."
+  },
+  "notOnYoutube": {
+    "message": "Ikke på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Lagret"
+  },
+  "savedForPage": {
+    "message": "Lagret for denne siden"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Bruker standardhastighet"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighet"
+  },
+  "defaultSectionSub": {
+    "message": "For alle nye videoer"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard for Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "For alle nye Shorts"
+  },
+  "savedCount": {
+    "message": "Lagrede sider: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Tøm"
+  }
+}

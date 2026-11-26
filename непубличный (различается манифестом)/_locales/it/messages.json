@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "Velocità di riproduzione per YouTube"
+  },
+  "extDescription": {
+    "message": "Imposta una velocità di riproduzione predefinita su YouTube e ricorda le velocità personalizzate per ogni video o pagina."
+  },
+  "actionTitle": {
+    "message": "Velocità video"
+  },
+  "appTitle": {
+    "message": "Velocità video"
+  },
+  "pageSectionTitle": {
+    "message": "Questa pagina"
+  },
+  "loadingText": {
+    "message": "Caricamento..."
+  },
+  "resetBtn": {
+    "message": "Ripristina"
+  },
+  "notYoutubeHint": {
+    "message": "Apri un video di YouTube per impostare una velocità personalizzata per questa pagina."
+  },
+  "notOnYoutube": {
+    "message": "Non sei su YouTube"
+  },
+  "savedPrefix": {
+    "message": "Salvato"
+  },
+  "savedForPage": {
+    "message": "Salvato per questa pagina"
+  },
+  "defaultPrefix": {
+    "message": "Predefinita"
+  },
+  "usingDefault": {
+    "message": "Usa velocità predefinita"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocità predefinita"
+  },
+  "defaultSectionSub": {
+    "message": "Per tutti i nuovi video"
+  },
+  "shortsSectionTitle": {
+    "message": "Predefinita per Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Per tutti i nuovi Shorts"
+  },
+  "savedCount": {
+    "message": "Pagine salvate: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Cancella"
+  }
+}

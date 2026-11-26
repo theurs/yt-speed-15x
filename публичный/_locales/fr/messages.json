@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "Vitesse de lecture pour YouTube"
+  },
+  "extDescription": {
+    "message": "Définissez une vitesse de lecture par défaut sur YouTube et mémorisez des vitesses personnalisées par vidéo ou par page."
+  },
+  "actionTitle": {
+    "message": "Vitesse vidéo"
+  },
+  "appTitle": {
+    "message": "Vitesse vidéo"
+  },
+  "pageSectionTitle": {
+    "message": "Cette page"
+  },
+  "loadingText": {
+    "message": "Chargement..."
+  },
+  "resetBtn": {
+    "message": "Réinitialiser"
+  },
+  "notYoutubeHint": {
+    "message": "Ouvrez une vidéo YouTube pour définir une vitesse personnalisée pour cette page."
+  },
+  "notOnYoutube": {
+    "message": "Pas sur YouTube"
+  },
+  "savedPrefix": {
+    "message": "Enregistré"
+  },
+  "savedForPage": {
+    "message": "Enregistré pour cette page"
+  },
+  "defaultPrefix": {
+    "message": "Par défaut"
+  },
+  "usingDefault": {
+    "message": "Utilise la vitesse par défaut"
+  },
+  "defaultSectionTitle": {
+    "message": "Vitesse par défaut"
+  },
+  "defaultSectionSub": {
+    "message": "Pour toutes les nouvelles vidéos"
+  },
+  "shortsSectionTitle": {
+    "message": "Par défaut pour Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Pour tous les nouveaux Shorts"
+  },
+  "savedCount": {
+    "message": "Pages enregistrées : $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Effacer"
+  }
+}

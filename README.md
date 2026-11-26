@@ -5,6 +5,7 @@ A lightweight Firefox extension (Desktop & Android) that sets a default playback
 ## Features
 
 - **Default speed for all videos** — starts every new video at your chosen default speed (`1.5×` out of the box).
+- **Separate default speed for Shorts** — keeps YouTube Shorts at their own default speed (`1.0×` out of the box).
 - **Per-page speed memory** — save a separate speed for a specific video, Short, live stream, or YouTube page. Saved by video ID (`watch`, `shorts`, `live`), so it persists across reloads and timestamps.
 - **Quick presets** — `1.0×`, `1.25×`, `1.5×`, `1.6×`, `1.75×`, `2.0×`.
 - **Smart YouTube handling** — works with YouTube SPA navigation (`www.youtube.com` and `m.youtube.com`), ignores ads while preserving your target speed when the video resumes, and doesn't override manual changes you make in YouTube's player menu after startup.

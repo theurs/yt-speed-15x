@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "Uppspelningshastighet för YouTube"
+  },
+  "extDescription": {
+    "message": "Ange en standardhastighet för uppspelning på YouTube och kom ihåg anpassade hastigheter per video eller sida."
+  },
+  "actionTitle": {
+    "message": "Uppspelningshastighet"
+  },
+  "appTitle": {
+    "message": "Uppspelningshastighet"
+  },
+  "pageSectionTitle": {
+    "message": "Denna sida"
+  },
+  "loadingText": {
+    "message": "Läser in..."
+  },
+  "resetBtn": {
+    "message": "Återställ"
+  },
+  "notYoutubeHint": {
+    "message": "Öppna en YouTube-video för att ange en anpassad hastighet för sidan."
+  },
+  "notOnYoutube": {
+    "message": "Inte på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Sparad"
+  },
+  "savedForPage": {
+    "message": "Sparad för denna sida"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Använder standardhastighet"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighet"
+  },
+  "defaultSectionSub": {
+    "message": "För alla nya videor"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard för Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "För alla nya Shorts"
+  },
+  "savedCount": {
+    "message": "Sparade sidor: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Rensa"
+  }
+}

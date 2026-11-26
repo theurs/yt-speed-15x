@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "YouTube 播放速度控制"
+  },
+  "extDescription": {
+    "message": "设置 YouTube 的默认播放速度，并为单个视频或页面记住自定义速度。"
+  },
+  "actionTitle": {
+    "message": "播放速度"
+  },
+  "appTitle": {
+    "message": "播放速度"
+  },
+  "pageSectionTitle": {
+    "message": "当前页面"
+  },
+  "loadingText": {
+    "message": "加载中..."
+  },
+  "resetBtn": {
+    "message": "重置"
+  },
+  "notYoutubeHint": {
+    "message": "打开一个 YouTube 视频即可为该页面单独设置播放速度。"
+  },
+  "notOnYoutube": {
+    "message": "不在 YouTube"
+  },
+  "savedPrefix": {
+    "message": "已保存"
+  },
+  "savedForPage": {
+    "message": "已为此页面保存"
+  },
+  "defaultPrefix": {
+    "message": "默认"
+  },
+  "usingDefault": {
+    "message": "正在使用默认速度"
+  },
+  "defaultSectionTitle": {
+    "message": "默认速度"
+  },
+  "defaultSectionSub": {
+    "message": "适用于所有新视频"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts 默认速度"
+  },
+  "shortsSectionSub": {
+    "message": "适用于所有新的 Shorts"
+  },
+  "savedCount": {
+    "message": "已保存页面：$COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "清除"
+  }
+}

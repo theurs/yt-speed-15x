@@ -1,0 +1,4486 @@
+DIRECTORY TREE:
+.
+README.md
+icon128.png
+screen1.png
+screen2.jpg
+непубличный (различается манифестом)
+непубличный (различается манифестом)\_locales
+непубличный (различается манифестом)\_locales\ar
+непубличный (различается манифестом)\_locales\ar\messages.json
+непубличный (различается манифестом)\_locales\cs
+непубличный (различается манифестом)\_locales\cs\messages.json
+непубличный (различается манифестом)\_locales\da
+непубличный (различается манифестом)\_locales\da\messages.json
+непубличный (различается манифестом)\_locales\de
+непубличный (различается манифестом)\_locales\de\messages.json
+непубличный (различается манифестом)\_locales\en
+непубличный (различается манифестом)\_locales\en\messages.json
+непубличный (различается манифестом)\_locales\es
+непубличный (различается манифестом)\_locales\es\messages.json
+непубличный (различается манифестом)\_locales\fi
+непубличный (различается манифестом)\_locales\fi\messages.json
+непубличный (различается манифестом)\_locales\fr
+непубличный (различается манифестом)\_locales\fr\messages.json
+непубличный (различается манифестом)\_locales\hi
+непубличный (различается манифестом)\_locales\hi\messages.json
+непубличный (различается манифестом)\_locales\id
+непубличный (различается манифестом)\_locales\id\messages.json
+непубличный (различается манифестом)\_locales\it
+непубличный (различается манифестом)\_locales\it\messages.json
+непубличный (различается манифестом)\_locales\ja
+непубличный (различается манифестом)\_locales\ja\messages.json
+непубличный (различается манифестом)\_locales\ko
+непубличный (различается манифестом)\_locales\ko\messages.json
+непубличный (различается манифестом)\_locales\nl
+непубличный (различается манифестом)\_locales\nl\messages.json
+непубличный (различается манифестом)\_locales\no
+непубличный (различается манифестом)\_locales\no\messages.json
+непубличный (различается манифестом)\_locales\pl
+непубличный (различается манифестом)\_locales\pl\messages.json
+непубличный (различается манифестом)\_locales\pt
+непубличный (различается манифестом)\_locales\pt\messages.json
+непубличный (различается манифестом)\_locales\ru
+непубличный (различается манифестом)\_locales\ru\messages.json
+непубличный (различается манифестом)\_locales\sv
+непубличный (различается манифестом)\_locales\sv\messages.json
+непубличный (различается манифестом)\_locales\tr
+непубличный (различается манифестом)\_locales\tr\messages.json
+непубличный (различается манифестом)\_locales\zh
+непубличный (различается манифестом)\_locales\zh\messages.json
+непубличный (различается манифестом)\content.js
+непубличный (различается манифестом)\icon.svg
+непубличный (различается манифестом)\manifest.json
+непубличный (различается манифестом)\popup.css
+непубличный (различается манифестом)\popup.html
+непубличный (различается манифестом)\popup.js
+публичный
+публичный\_locales
+публичный\_locales\ar
+публичный\_locales\ar\messages.json
+публичный\_locales\cs
+публичный\_locales\cs\messages.json
+публичный\_locales\da
+публичный\_locales\da\messages.json
+публичный\_locales\de
+публичный\_locales\de\messages.json
+публичный\_locales\en
+публичный\_locales\en\messages.json
+публичный\_locales\es
+публичный\_locales\es\messages.json
+публичный\_locales\fi
+публичный\_locales\fi\messages.json
+публичный\_locales\fr
+публичный\_locales\fr\messages.json
+публичный\_locales\hi
+публичный\_locales\hi\messages.json
+публичный\_locales\id
+публичный\_locales\id\messages.json
+публичный\_locales\it
+публичный\_locales\it\messages.json
+публичный\_locales\ja
+публичный\_locales\ja\messages.json
+публичный\_locales\ko
+публичный\_locales\ko\messages.json
+публичный\_locales\nl
+публичный\_locales\nl\messages.json
+публичный\_locales\no
+публичный\_locales\no\messages.json
+публичный\_locales\pl
+публичный\_locales\pl\messages.json
+публичный\_locales\pt
+публичный\_locales\pt\messages.json
+публичный\_locales\ru
+публичный\_locales\ru\messages.json
+публичный\_locales\sv
+публичный\_locales\sv\messages.json
+публичный\_locales\tr
+публичный\_locales\tr\messages.json
+публичный\_locales\zh
+публичный\_locales\zh\messages.json
+публичный\content.js
+публичный\icon.svg
+публичный\manifest.json
+публичный\popup.css
+публичный\popup.html
+публичный\popup.js
+
+================================================================================
+
+=== FILE: README.md | SIZE: 2871 bytes ===
+# Playback Speed for YouTube
+
+A lightweight Firefox extension (Desktop & Android) that sets a default playback speed on YouTube and remembers custom speeds for individual videos and pages.
+
+## Features
+
+- **Default speed for all videos** — starts every new video at your chosen default speed (`1.5×` out of the box).
+- **Separate default speed for Shorts** — keeps YouTube Shorts at their own default speed (`1.0×` out of the box).
+- **Per-page speed memory** — save a separate speed for a specific video, Short, live stream, or YouTube page. Saved by video ID (`watch`, `shorts`, `live`), so it persists across reloads and timestamps.
+- **Quick presets** — `1.0×`, `1.25×`, `1.5×`, `1.6×`, `1.75×`, `2.0×`.
+- **Smart YouTube handling** — works with YouTube SPA navigation (`www.youtube.com` and `m.youtube.com`), ignores ads while preserving your target speed when the video resumes, and doesn't override manual changes you make in YouTube's player menu after startup.
+- **Mobile-friendly UI** — responsive popup designed for touch screens with automatic light/dark mode support.
+- **Localized in 21 languages** — `ar`, `cs`, `da`, `de`, `en`, `es`, `fi`, `fr`, `hi`, `id`, `it`, `ja`, `ko`, `nl`, `no`, `pl`, `pt`, `ru`, `sv`, `tr`, `zh`.
+
+## Privacy
+
+- **Zero data collection** — all settings are stored locally in your browser via `browser.storage.local`.
+- **No tracking, analytics, or external requests.**
+- Scoped strictly to `*://youtube.com/*`, `*://www.youtube.com/*`, and `*://m.youtube.com/*` (YouTube Music is excluded).
+
+## Installation
+
+### From Mozilla Add-ons
+*(Add your AMO store link here once published)*
+
+### Manual Testing (Desktop Firefox)
+1. Clone or download this repository.
+2. Open `about:debugging#/runtime/this-firefox` in Firefox.
+3. Click **Load Temporary Add-on...** and select `manifest.json`.
+
+### Testing on Firefox for Android
+1. Enable **USB Debugging** on Android and **Remote debugging via USB** in Firefox Settings.
+2. Connect your phone and run:
+   ```bash
+   npx web-ext run --target=firefox-android --android-device=<DEVICE_ID>
+   ```
+   *(Or install a signed `.xpi` via Firefox Settings → About Firefox → tap the logo 5 times → Install extension from file.)*
+
+## Project Structure
+
+```text
+.
+├── _locales/          # Translations (21 languages)
+├── content.js         # YouTube player hook & SPA navigation handler
+├── icon.svg           # Extension vector icon
+├── manifest.json      # WebExtension manifest (MV2)
+├── popup.css          # Light & dark responsive styles
+├── popup.html         # Extension popup markup
+└── popup.js           # Popup logic & storage management
+```
+
+## Requirements
+
+- Firefox `140.0+` (Desktop)
+- Firefox for Android `142.0+`
+
+## License
+
+This project is licensed under the [Mozilla Public License 2.0 (MPL-2.0)](LICENSE).
+=== END OF FILE: README.md ===
+
+=== FILE: icon128.png | SIZE: 7983 bytes | [BINARY FILE SKIPPED] ===
+
+=== FILE: screen1.png | SIZE: 27909 bytes | [BINARY FILE SKIPPED] ===
+
+=== FILE: screen2.jpg | SIZE: 188665 bytes | [BINARY FILE SKIPPED] ===
+
+=== FILE: непубличный (различается манифестом)\_locales\ar\messages.json | SIZE: 1597 bytes ===
+{
+  "extName": {
+    "message": "سرعة التشغيل لـ YouTube"
+  },
+  "extDescription": {
+    "message": "تعيين سرعة تشغيل افتراضية على YouTube وحفظ سرعات مخصصة لكل فيديو أو صفحة."
+  },
+  "actionTitle": {
+    "message": "سرعة التشغيل"
+  },
+  "appTitle": {
+    "message": "سرعة التشغيل"
+  },
+  "pageSectionTitle": {
+    "message": "هذه الصفحة"
+  },
+  "loadingText": {
+    "message": "جارٍ التحميل..."
+  },
+  "resetBtn": {
+    "message": "إعادة تعيين"
+  },
+  "notYoutubeHint": {
+    "message": "افتح فيديو على YouTube لتعيين سرعة مخصصة لهذه الصفحة."
+  },
+  "notOnYoutube": {
+    "message": "لست على YouTube"
+  },
+  "savedPrefix": {
+    "message": "محفوظ"
+  },
+  "savedForPage": {
+    "message": "محفوظ لهذه الصفحة"
+  },
+  "defaultPrefix": {
+    "message": "افتراضي"
+  },
+  "usingDefault": {
+    "message": "يستخدم السرعة الافتراضية"
+  },
+  "defaultSectionTitle": {
+    "message": "السرعة الافتراضية"
+  },
+  "defaultSectionSub": {
+    "message": "لجميع الفيديوهات الجديدة"
+  },
+  "shortsSectionTitle": {
+    "message": "الافتراضي لـ Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "لجميع فيديوهات Shorts الجديدة"
+  },
+  "savedCount": {
+    "message": "الصفحات المحفوظة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "مسح"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\ar\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\cs\messages.json | SIZE: 1428 bytes ===
+{
+  "extName": {
+    "message": "Rychlost přehrávání pro YouTube"
+  },
+  "extDescription": {
+    "message": "Nastavte výchozí rychlost přehrávání na YouTube a ukládejte vlastní rychlosti pro jednotlivá videa nebo stránky."
+  },
+  "actionTitle": {
+    "message": "Rychlost přehrávání"
+  },
+  "appTitle": {
+    "message": "Rychlost přehrávání"
+  },
+  "pageSectionTitle": {
+    "message": "Tato stránka"
+  },
+  "loadingText": {
+    "message": "Načítání..."
+  },
+  "resetBtn": {
+    "message": "Obnovit"
+  },
+  "notYoutubeHint": {
+    "message": "Otevřete video na YouTube a nastavte vlastní rychlost pro tuto stránku."
+  },
+  "notOnYoutube": {
+    "message": "Nejste na YouTube"
+  },
+  "savedPrefix": {
+    "message": "Uloženo"
+  },
+  "savedForPage": {
+    "message": "Uloženo pro tuto stránku"
+  },
+  "defaultPrefix": {
+    "message": "Výchozí"
+  },
+  "usingDefault": {
+    "message": "Používá výchozí rychlost"
+  },
+  "defaultSectionTitle": {
+    "message": "Výchozí rychlost"
+  },
+  "defaultSectionSub": {
+    "message": "Pro všechna nová videa"
+  },
+  "shortsSectionTitle": {
+    "message": "Výchozí pro Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Pro všechna nová Shorts"
+  },
+  "savedCount": {
+    "message": "Uložené stránky: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Vymazat"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\cs\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\da\messages.json | SIZE: 1365 bytes ===
+{
+  "extName": {
+    "message": "Afspilningshastighed til YouTube"
+  },
+  "extDescription": {
+    "message": "Angiv en standardafspilningshastighed på YouTube, og husk brugerdefinerede hastigheder for hver video eller side."
+  },
+  "actionTitle": {
+    "message": "Afspilningshastighed"
+  },
+  "appTitle": {
+    "message": "Afspilningshastighed"
+  },
+  "pageSectionTitle": {
+    "message": "Denne side"
+  },
+  "loadingText": {
+    "message": "Indlæser..."
+  },
+  "resetBtn": {
+    "message": "Nulstil"
+  },
+  "notYoutubeHint": {
+    "message": "Åbn en YouTube-video for at angive en brugerdefineret hastighed for siden."
+  },
+  "notOnYoutube": {
+    "message": "Ikke på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Gemt"
+  },
+  "savedForPage": {
+    "message": "Gemt for denne side"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Bruger standardhastighed"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighed"
+  },
+  "defaultSectionSub": {
+    "message": "For alle nye videoer"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard for Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "For alle nye Shorts"
+  },
+  "savedCount": {
+    "message": "Gemte sider: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Ryd"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\da\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\de\messages.json | SIZE: 1447 bytes ===
+{
+  "extName": {
+    "message": "Wiedergabegeschwindigkeit für YouTube"
+  },
+  "extDescription": {
+    "message": "Lege eine Standard-Wiedergabegeschwindigkeit auf YouTube fest und speichere individuelle Geschwindigkeiten pro Video oder Seite."
+  },
+  "actionTitle": {
+    "message": "Wiedergabetempo"
+  },
+  "appTitle": {
+    "message": "Wiedergabetempo"
+  },
+  "pageSectionTitle": {
+    "message": "Diese Seite"
+  },
+  "loadingText": {
+    "message": "Wird geladen..."
+  },
+  "resetBtn": {
+    "message": "Zurücksetzen"
+  },
+  "notYoutubeHint": {
+    "message": "Öffne ein YouTube-Video, um für diese Seite eine eigene Geschwindigkeit festzulegen."
+  },
+  "notOnYoutube": {
+    "message": "Nicht auf YouTube"
+  },
+  "savedPrefix": {
+    "message": "Gespeichert"
+  },
+  "savedForPage": {
+    "message": "Für diese Seite gespeichert"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Verwendet Standardgeschwindigkeit"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardgeschwindigkeit"
+  },
+  "defaultSectionSub": {
+    "message": "Für alle neuen Videos"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard für Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Für alle neuen Shorts"
+  },
+  "savedCount": {
+    "message": "Gespeicherte Seiten: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Löschen"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\de\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\en\messages.json | SIZE: 1278 bytes ===
+{
+  "extName": {
+    "message": "Playback Speed for YouTube"
+  },
+  "extDescription": {
+    "message": "Set a default playback speed on YouTube and remember custom speeds per video or page."
+  },
+  "actionTitle": {
+    "message": "Playback Speed"
+  },
+  "appTitle": {
+    "message": "Playback Speed"
+  },
+  "pageSectionTitle": {
+    "message": "This page"
+  },
+  "loadingText": {
+    "message": "Loading..."
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "notYoutubeHint": {
+    "message": "Open a YouTube video to set a custom speed for that page."
+  },
+  "notOnYoutube": {
+    "message": "Not on YouTube"
+  },
+  "savedPrefix": {
+    "message": "Saved"
+  },
+  "savedForPage": {
+    "message": "Saved for this page"
+  },
+  "defaultPrefix": {
+    "message": "Default"
+  },
+  "usingDefault": {
+    "message": "Using default speed"
+  },
+  "defaultSectionTitle": {
+    "message": "Default speed"
+  },
+  "defaultSectionSub": {
+    "message": "For all new videos"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts default"
+  },
+  "shortsSectionSub": {
+    "message": "For all new Shorts"
+  },
+  "savedCount": {
+    "message": "Saved pages: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Clear"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\en\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\es\messages.json | SIZE: 1465 bytes ===
+{
+  "extName": {
+    "message": "Velocidad de reproducción para YouTube"
+  },
+  "extDescription": {
+    "message": "Establece una velocidad de reproducción predeterminada en YouTube y recuerda velocidades personalizadas por video o página."
+  },
+  "actionTitle": {
+    "message": "Velocidad de video"
+  },
+  "appTitle": {
+    "message": "Velocidad de video"
+  },
+  "pageSectionTitle": {
+    "message": "Esta página"
+  },
+  "loadingText": {
+    "message": "Cargando..."
+  },
+  "resetBtn": {
+    "message": "Restablecer"
+  },
+  "notYoutubeHint": {
+    "message": "Abre un video de YouTube para configurar una velocidad personalizada para esa página."
+  },
+  "notOnYoutube": {
+    "message": "No estás en YouTube"
+  },
+  "savedPrefix": {
+    "message": "Guardado"
+  },
+  "savedForPage": {
+    "message": "Guardado para esta página"
+  },
+  "defaultPrefix": {
+    "message": "Predeterminado"
+  },
+  "usingDefault": {
+    "message": "Usando velocidad predeterminada"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocidad predeterminada"
+  },
+  "defaultSectionSub": {
+    "message": "Para todos los videos nuevos"
+  },
+  "shortsSectionTitle": {
+    "message": "Predeterminado para Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Para todos los Shorts nuevos"
+  },
+  "savedCount": {
+    "message": "Páginas guardadas: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Limpiar"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\es\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\fi\messages.json | SIZE: 1347 bytes ===
+{
+  "extName": {
+    "message": "Toistonopeus YouTubeen"
+  },
+  "extDescription": {
+    "message": "Aseta oletustoistonopeus YouTubessa ja muista mukautetut nopeudet video- tai sivukohtaisesti."
+  },
+  "actionTitle": {
+    "message": "Toistonopeus"
+  },
+  "appTitle": {
+    "message": "Toistonopeus"
+  },
+  "pageSectionTitle": {
+    "message": "Tämä sivu"
+  },
+  "loadingText": {
+    "message": "Ladataan..."
+  },
+  "resetBtn": {
+    "message": "Palauta"
+  },
+  "notYoutubeHint": {
+    "message": "Avaa YouTube-video asettaaksesi mukautetun nopeuden tälle sivulle."
+  },
+  "notOnYoutube": {
+    "message": "Et ole YouTubessa"
+  },
+  "savedPrefix": {
+    "message": "Tallennettu"
+  },
+  "savedForPage": {
+    "message": "Tallennettu tälle sivulle"
+  },
+  "defaultPrefix": {
+    "message": "Oletus"
+  },
+  "usingDefault": {
+    "message": "Käytetään oletusnopeutta"
+  },
+  "defaultSectionTitle": {
+    "message": "Oletusnopeus"
+  },
+  "defaultSectionSub": {
+    "message": "Kaikille uusille videoille"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts-oletus"
+  },
+  "shortsSectionSub": {
+    "message": "Kaikille uusille Shorts-videoille"
+  },
+  "savedCount": {
+    "message": "Tallennetut sivut: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Tyhjennä"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\fi\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\fr\messages.json | SIZE: 1444 bytes ===
+{
+  "extName": {
+    "message": "Vitesse de lecture pour YouTube"
+  },
+  "extDescription": {
+    "message": "Définissez une vitesse de lecture par défaut sur YouTube et mémorisez des vitesses personnalisées par vidéo ou par page."
+  },
+  "actionTitle": {
+    "message": "Vitesse vidéo"
+  },
+  "appTitle": {
+    "message": "Vitesse vidéo"
+  },
+  "pageSectionTitle": {
+    "message": "Cette page"
+  },
+  "loadingText": {
+    "message": "Chargement..."
+  },
+  "resetBtn": {
+    "message": "Réinitialiser"
+  },
+  "notYoutubeHint": {
+    "message": "Ouvrez une vidéo YouTube pour définir une vitesse personnalisée pour cette page."
+  },
+  "notOnYoutube": {
+    "message": "Pas sur YouTube"
+  },
+  "savedPrefix": {
+    "message": "Enregistré"
+  },
+  "savedForPage": {
+    "message": "Enregistré pour cette page"
+  },
+  "defaultPrefix": {
+    "message": "Par défaut"
+  },
+  "usingDefault": {
+    "message": "Utilise la vitesse par défaut"
+  },
+  "defaultSectionTitle": {
+    "message": "Vitesse par défaut"
+  },
+  "defaultSectionSub": {
+    "message": "Pour toutes les nouvelles vidéos"
+  },
+  "shortsSectionTitle": {
+    "message": "Par défaut pour Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Pour tous les nouveaux Shorts"
+  },
+  "savedCount": {
+    "message": "Pages enregistrées : $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Effacer"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\fr\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\hi\messages.json | SIZE: 1950 bytes ===
+{
+  "extName": {
+    "message": "YouTube के लिए प्लेबैक स्पीड"
+  },
+  "extDescription": {
+    "message": "YouTube पर डिफ़ॉल्ट प्लेबैक स्पीड सेट करें और हर वीडियो या पेज के लिए अलग स्पीड याद रखें।"
+  },
+  "actionTitle": {
+    "message": "प्लेबैक स्पीड"
+  },
+  "appTitle": {
+    "message": "प्लेबैक स्पीड"
+  },
+  "pageSectionTitle": {
+    "message": "यह पेज"
+  },
+  "loadingText": {
+    "message": "लोड हो रहा है..."
+  },
+  "resetBtn": {
+    "message": "रीसेट करें"
+  },
+  "notYoutubeHint": {
+    "message": "इस पेज के लिए अलग स्पीड सेट करने हेतु YouTube वीडियो खोलें।"
+  },
+  "notOnYoutube": {
+    "message": "YouTube पर नहीं"
+  },
+  "savedPrefix": {
+    "message": "सहेजा गया"
+  },
+  "savedForPage": {
+    "message": "इस पेज के लिए सहेजा गया"
+  },
+  "defaultPrefix": {
+    "message": "डिफ़ॉल्ट"
+  },
+  "usingDefault": {
+    "message": "डिफ़ॉल्ट स्पीड का उपयोग हो रहा है"
+  },
+  "defaultSectionTitle": {
+    "message": "डिफ़ॉल्ट स्पीड"
+  },
+  "defaultSectionSub": {
+    "message": "सभी नए वीडियो के लिए"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts के लिए डिफ़ॉल्ट"
+  },
+  "shortsSectionSub": {
+    "message": "सभी नए Shorts के लिए"
+  },
+  "savedCount": {
+    "message": "सहेजे गए पेज: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "साफ़ करें"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\hi\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\id\messages.json | SIZE: 1367 bytes ===
+{
+  "extName": {
+    "message": "Kecepatan Pemutaran untuk YouTube"
+  },
+  "extDescription": {
+    "message": "Atur kecepatan pemutaran default di YouTube dan simpan kecepatan khusus untuk setiap video atau halaman."
+  },
+  "actionTitle": {
+    "message": "Kecepatan Putar"
+  },
+  "appTitle": {
+    "message": "Kecepatan Putar"
+  },
+  "pageSectionTitle": {
+    "message": "Halaman ini"
+  },
+  "loadingText": {
+    "message": "Memuat..."
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "notYoutubeHint": {
+    "message": "Buka video YouTube untuk mengatur kecepatan khusus bagi halaman ini."
+  },
+  "notOnYoutube": {
+    "message": "Tidak di YouTube"
+  },
+  "savedPrefix": {
+    "message": "Tersimpan"
+  },
+  "savedForPage": {
+    "message": "Tersimpan untuk halaman ini"
+  },
+  "defaultPrefix": {
+    "message": "Default"
+  },
+  "usingDefault": {
+    "message": "Menggunakan kecepatan default"
+  },
+  "defaultSectionTitle": {
+    "message": "Kecepatan default"
+  },
+  "defaultSectionSub": {
+    "message": "Untuk semua video baru"
+  },
+  "shortsSectionTitle": {
+    "message": "Default untuk Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Untuk semua Shorts baru"
+  },
+  "savedCount": {
+    "message": "Halaman tersimpan: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Hapus"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\id\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\it\messages.json | SIZE: 1426 bytes ===
+{
+  "extName": {
+    "message": "Velocità di riproduzione per YouTube"
+  },
+  "extDescription": {
+    "message": "Imposta una velocità di riproduzione predefinita su YouTube e ricorda le velocità personalizzate per ogni video o pagina."
+  },
+  "actionTitle": {
+    "message": "Velocità video"
+  },
+  "appTitle": {
+    "message": "Velocità video"
+  },
+  "pageSectionTitle": {
+    "message": "Questa pagina"
+  },
+  "loadingText": {
+    "message": "Caricamento..."
+  },
+  "resetBtn": {
+    "message": "Ripristina"
+  },
+  "notYoutubeHint": {
+    "message": "Apri un video di YouTube per impostare una velocità personalizzata per questa pagina."
+  },
+  "notOnYoutube": {
+    "message": "Non sei su YouTube"
+  },
+  "savedPrefix": {
+    "message": "Salvato"
+  },
+  "savedForPage": {
+    "message": "Salvato per questa pagina"
+  },
+  "defaultPrefix": {
+    "message": "Predefinita"
+  },
+  "usingDefault": {
+    "message": "Usa velocità predefinita"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocità predefinita"
+  },
+  "defaultSectionSub": {
+    "message": "Per tutti i nuovi video"
+  },
+  "shortsSectionTitle": {
+    "message": "Predefinita per Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Per tutti i nuovi Shorts"
+  },
+  "savedCount": {
+    "message": "Pagine salvate: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Cancella"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\it\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\ja\messages.json | SIZE: 1492 bytes ===
+{
+  "extName": {
+    "message": "YouTube用再生速度コントロール"
+  },
+  "extDescription": {
+    "message": "YouTubeのデフォルト再生速度を設定し、動画やページごとのカスタム速度を記憶します。"
+  },
+  "actionTitle": {
+    "message": "再生速度"
+  },
+  "appTitle": {
+    "message": "再生速度"
+  },
+  "pageSectionTitle": {
+    "message": "このページ"
+  },
+  "loadingText": {
+    "message": "読み込み中..."
+  },
+  "resetBtn": {
+    "message": "リセット"
+  },
+  "notYoutubeHint": {
+    "message": "このページ専用の速度を設定するには、YouTubeの動画を開いてください。"
+  },
+  "notOnYoutube": {
+    "message": "YouTube以外"
+  },
+  "savedPrefix": {
+    "message": "保存済み"
+  },
+  "savedForPage": {
+    "message": "このページ用に保存済み"
+  },
+  "defaultPrefix": {
+    "message": "デフォルト"
+  },
+  "usingDefault": {
+    "message": "デフォルト速度を使用中"
+  },
+  "defaultSectionTitle": {
+    "message": "デフォルト速度"
+  },
+  "defaultSectionSub": {
+    "message": "すべての新しい動画に適用"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts のデフォルト"
+  },
+  "shortsSectionSub": {
+    "message": "すべての新しい Shorts に適用"
+  },
+  "savedCount": {
+    "message": "保存済みページ: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "消去"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\ja\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\ko\messages.json | SIZE: 1411 bytes ===
+{
+  "extName": {
+    "message": "YouTube용 재생 속도"
+  },
+  "extDescription": {
+    "message": "YouTube 기본 재생 속도를 설정하고 동영상 또는 페이지별 사용자 지정 속도를 기억합니다."
+  },
+  "actionTitle": {
+    "message": "재생 속도"
+  },
+  "appTitle": {
+    "message": "재생 속도"
+  },
+  "pageSectionTitle": {
+    "message": "현재 페이지"
+  },
+  "loadingText": {
+    "message": "불러오는 중..."
+  },
+  "resetBtn": {
+    "message": "초기화"
+  },
+  "notYoutubeHint": {
+    "message": "이 페이지의 개별 속도를 설정하려면 YouTube 동영상을 여세요."
+  },
+  "notOnYoutube": {
+    "message": "YouTube가 아님"
+  },
+  "savedPrefix": {
+    "message": "저장됨"
+  },
+  "savedForPage": {
+    "message": "이 페이지에 저장됨"
+  },
+  "defaultPrefix": {
+    "message": "기본값"
+  },
+  "usingDefault": {
+    "message": "기본 속도 사용 중"
+  },
+  "defaultSectionTitle": {
+    "message": "기본 속도"
+  },
+  "defaultSectionSub": {
+    "message": "모든 새 동영상에 적용"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts 기본 속도"
+  },
+  "shortsSectionSub": {
+    "message": "모든 새 Shorts에 적용"
+  },
+  "savedCount": {
+    "message": "저장된 페이지: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "지우기"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\ko\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\nl\messages.json | SIZE: 1376 bytes ===
+{
+  "extName": {
+    "message": "Afspeelsnelheid voor YouTube"
+  },
+  "extDescription": {
+    "message": "Stel een standaard afspeelsnelheid in op YouTube en onthoud aangepaste snelheden per video of pagina."
+  },
+  "actionTitle": {
+    "message": "Afspeelsnelheid"
+  },
+  "appTitle": {
+    "message": "Afspeelsnelheid"
+  },
+  "pageSectionTitle": {
+    "message": "Deze pagina"
+  },
+  "loadingText": {
+    "message": "Laden..."
+  },
+  "resetBtn": {
+    "message": "Herstellen"
+  },
+  "notYoutubeHint": {
+    "message": "Open een YouTube-video om een eigen snelheid voor deze pagina in te stellen."
+  },
+  "notOnYoutube": {
+    "message": "Niet op YouTube"
+  },
+  "savedPrefix": {
+    "message": "Opgeslagen"
+  },
+  "savedForPage": {
+    "message": "Opgeslagen voor deze pagina"
+  },
+  "defaultPrefix": {
+    "message": "Standaard"
+  },
+  "usingDefault": {
+    "message": "Gebruikt standaardsnelheid"
+  },
+  "defaultSectionTitle": {
+    "message": "Standaardsnelheid"
+  },
+  "defaultSectionSub": {
+    "message": "Voor alle nieuwe video's"
+  },
+  "shortsSectionTitle": {
+    "message": "Standaard voor Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Voor alle nieuwe Shorts"
+  },
+  "savedCount": {
+    "message": "Opgeslagen pagina's: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Wissen"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\nl\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\no\messages.json | SIZE: 1368 bytes ===
+{
+  "extName": {
+    "message": "Avspillingshastighet for YouTube"
+  },
+  "extDescription": {
+    "message": "Angi en standard avspillingshastighet på YouTube og husk egendefinerte hastigheter for hver video eller side."
+  },
+  "actionTitle": {
+    "message": "Avspillingshastighet"
+  },
+  "appTitle": {
+    "message": "Avspillingshastighet"
+  },
+  "pageSectionTitle": {
+    "message": "Denne siden"
+  },
+  "loadingText": {
+    "message": "Laster..."
+  },
+  "resetBtn": {
+    "message": "Tilbakestill"
+  },
+  "notYoutubeHint": {
+    "message": "Åpne en YouTube-video for å angi en egendefinert hastighet for siden."
+  },
+  "notOnYoutube": {
+    "message": "Ikke på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Lagret"
+  },
+  "savedForPage": {
+    "message": "Lagret for denne siden"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Bruker standardhastighet"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighet"
+  },
+  "defaultSectionSub": {
+    "message": "For alle nye videoer"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard for Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "For alle nye Shorts"
+  },
+  "savedCount": {
+    "message": "Lagrede sider: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Tøm"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\no\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\pl\messages.json | SIZE: 1414 bytes ===
+{
+  "extName": {
+    "message": "Prędkość odtwarzania dla YouTube"
+  },
+  "extDescription": {
+    "message": "Ustaw domyślną prędkość odtwarzania na YouTube i zapamiętuj własne prędkości dla poszczególnych filmów lub stron."
+  },
+  "actionTitle": {
+    "message": "Prędkość wideo"
+  },
+  "appTitle": {
+    "message": "Prędkość wideo"
+  },
+  "pageSectionTitle": {
+    "message": "Ta strona"
+  },
+  "loadingText": {
+    "message": "Ładowanie..."
+  },
+  "resetBtn": {
+    "message": "Resetuj"
+  },
+  "notYoutubeHint": {
+    "message": "Otwórz film na YouTube, aby ustawić własną prędkość dla tej strony."
+  },
+  "notOnYoutube": {
+    "message": "Poza YouTube"
+  },
+  "savedPrefix": {
+    "message": "Zapisano"
+  },
+  "savedForPage": {
+    "message": "Zapisano dla tej strony"
+  },
+  "defaultPrefix": {
+    "message": "Domyślna"
+  },
+  "usingDefault": {
+    "message": "Używa domyślnej prędkości"
+  },
+  "defaultSectionTitle": {
+    "message": "Domyślna prędkość"
+  },
+  "defaultSectionSub": {
+    "message": "Dla wszystkich nowych filmów"
+  },
+  "shortsSectionTitle": {
+    "message": "Domyślna dla Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Dla wszystkich nowych Shorts"
+  },
+  "savedCount": {
+    "message": "Zapisane strony: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Wyczyść"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\pl\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\pt\messages.json | SIZE: 1417 bytes ===
+{
+  "extName": {
+    "message": "Velocidade de reprodução para YouTube"
+  },
+  "extDescription": {
+    "message": "Defina uma velocidade de reprodução padrão no YouTube e memorize velocidades personalizadas por vídeo ou página."
+  },
+  "actionTitle": {
+    "message": "Velocidade do vídeo"
+  },
+  "appTitle": {
+    "message": "Velocidade do vídeo"
+  },
+  "pageSectionTitle": {
+    "message": "Esta página"
+  },
+  "loadingText": {
+    "message": "Carregando..."
+  },
+  "resetBtn": {
+    "message": "Redefinir"
+  },
+  "notYoutubeHint": {
+    "message": "Abra um vídeo do YouTube para definir uma velocidade personalizada para esta página."
+  },
+  "notOnYoutube": {
+    "message": "Fora do YouTube"
+  },
+  "savedPrefix": {
+    "message": "Salvo"
+  },
+  "savedForPage": {
+    "message": "Salvo para esta página"
+  },
+  "defaultPrefix": {
+    "message": "Padrão"
+  },
+  "usingDefault": {
+    "message": "Usando velocidade padrão"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocidade padrão"
+  },
+  "defaultSectionSub": {
+    "message": "Para todos os novos vídeos"
+  },
+  "shortsSectionTitle": {
+    "message": "Padrão para Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Para todos os novos Shorts"
+  },
+  "savedCount": {
+    "message": "Páginas salvas: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Limpar"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\pt\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\ru\messages.json | SIZE: 1689 bytes ===
+{
+  "extName": {
+    "message": "Контроль скорости для YouTube"
+  },
+  "extDescription": {
+    "message": "Скорость на YouTube по умолчанию и запоминание скорости отдельно для каждой страницы или видео."
+  },
+  "actionTitle": {
+    "message": "Скорость YouTube"
+  },
+  "appTitle": {
+    "message": "Скорость видео"
+  },
+  "pageSectionTitle": {
+    "message": "Эта страница"
+  },
+  "loadingText": {
+    "message": "Загрузка..."
+  },
+  "resetBtn": {
+    "message": "Сбросить"
+  },
+  "notYoutubeHint": {
+    "message": "Откройте видео на YouTube, чтобы задать скорость отдельно для страницы"
+  },
+  "notOnYoutube": {
+    "message": "Не на YouTube"
+  },
+  "savedPrefix": {
+    "message": "Сохранено"
+  },
+  "savedForPage": {
+    "message": "Сохранено для этой страницы"
+  },
+  "defaultPrefix": {
+    "message": "По умолчанию"
+  },
+  "usingDefault": {
+    "message": "Использует скорость по умолчанию"
+  },
+  "defaultSectionTitle": {
+    "message": "По умолчанию"
+  },
+  "defaultSectionSub": {
+    "message": "Для всех новых видео"
+  },
+  "shortsSectionTitle": {
+    "message": "Для Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Для всех новых Shorts"
+  },
+  "savedCount": {
+    "message": "Сохранено страниц: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Очистить"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\ru\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\sv\messages.json | SIZE: 1381 bytes ===
+{
+  "extName": {
+    "message": "Uppspelningshastighet för YouTube"
+  },
+  "extDescription": {
+    "message": "Ange en standardhastighet för uppspelning på YouTube och kom ihåg anpassade hastigheter per video eller sida."
+  },
+  "actionTitle": {
+    "message": "Uppspelningshastighet"
+  },
+  "appTitle": {
+    "message": "Uppspelningshastighet"
+  },
+  "pageSectionTitle": {
+    "message": "Denna sida"
+  },
+  "loadingText": {
+    "message": "Läser in..."
+  },
+  "resetBtn": {
+    "message": "Återställ"
+  },
+  "notYoutubeHint": {
+    "message": "Öppna en YouTube-video för att ange en anpassad hastighet för sidan."
+  },
+  "notOnYoutube": {
+    "message": "Inte på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Sparad"
+  },
+  "savedForPage": {
+    "message": "Sparad för denna sida"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Använder standardhastighet"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighet"
+  },
+  "defaultSectionSub": {
+    "message": "För alla nya videor"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard för Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "För alla nya Shorts"
+  },
+  "savedCount": {
+    "message": "Sparade sidor: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Rensa"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\sv\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\tr\messages.json | SIZE: 1402 bytes ===
+{
+  "extName": {
+    "message": "YouTube için Oynatma Hızı"
+  },
+  "extDescription": {
+    "message": "YouTube'da varsayılan bir oynatma hızı ayarlayın ve her video veya sayfa için özel hızları hatırlayın."
+  },
+  "actionTitle": {
+    "message": "Oynatma Hızı"
+  },
+  "appTitle": {
+    "message": "Oynatma Hızı"
+  },
+  "pageSectionTitle": {
+    "message": "Bu sayfa"
+  },
+  "loadingText": {
+    "message": "Yükleniyor..."
+  },
+  "resetBtn": {
+    "message": "Sıfırla"
+  },
+  "notYoutubeHint": {
+    "message": "Bu sayfa için özel bir hız belirlemek üzere bir YouTube videosu açın."
+  },
+  "notOnYoutube": {
+    "message": "YouTube'da değil"
+  },
+  "savedPrefix": {
+    "message": "Kaydedildi"
+  },
+  "savedForPage": {
+    "message": "Bu sayfa için kaydedildi"
+  },
+  "defaultPrefix": {
+    "message": "Varsayılan"
+  },
+  "usingDefault": {
+    "message": "Varsayılan hız kullanılıyor"
+  },
+  "defaultSectionTitle": {
+    "message": "Varsayılan hız"
+  },
+  "defaultSectionSub": {
+    "message": "Tüm yeni videolar için"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts varsayılanı"
+  },
+  "shortsSectionSub": {
+    "message": "Tüm yeni Shorts videoları için"
+  },
+  "savedCount": {
+    "message": "Kaydedilen sayfalar: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Temizle"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\tr\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\_locales\zh\messages.json | SIZE: 1336 bytes ===
+{
+  "extName": {
+    "message": "YouTube 播放速度控制"
+  },
+  "extDescription": {
+    "message": "设置 YouTube 的默认播放速度，并为单个视频或页面记住自定义速度。"
+  },
+  "actionTitle": {
+    "message": "播放速度"
+  },
+  "appTitle": {
+    "message": "播放速度"
+  },
+  "pageSectionTitle": {
+    "message": "当前页面"
+  },
+  "loadingText": {
+    "message": "加载中..."
+  },
+  "resetBtn": {
+    "message": "重置"
+  },
+  "notYoutubeHint": {
+    "message": "打开一个 YouTube 视频即可为该页面单独设置播放速度。"
+  },
+  "notOnYoutube": {
+    "message": "不在 YouTube"
+  },
+  "savedPrefix": {
+    "message": "已保存"
+  },
+  "savedForPage": {
+    "message": "已为此页面保存"
+  },
+  "defaultPrefix": {
+    "message": "默认"
+  },
+  "usingDefault": {
+    "message": "正在使用默认速度"
+  },
+  "defaultSectionTitle": {
+    "message": "默认速度"
+  },
+  "defaultSectionSub": {
+    "message": "适用于所有新视频"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts 默认速度"
+  },
+  "shortsSectionSub": {
+    "message": "适用于所有新的 Shorts"
+  },
+  "savedCount": {
+    "message": "已保存页面：$COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "清除"
+  }
+}
+=== END OF FILE: непубличный (различается манифестом)\_locales\zh\messages.json ===
+
+=== FILE: непубличный (различается манифестом)\content.js | SIZE: 5775 bytes ===
+(() => {
+  const FALLBACK_SPEED = 1.5;
+  const FALLBACK_SHORTS_SPEED = 1.0;
+
+  let defaultSpeed = FALLBACK_SPEED;
+  let shortsDefaultSpeed = FALLBACK_SHORTS_SPEED;
+  let pageSpeeds = {};
+  let lastUrl = "";
+  let enforceUntil = 0;
+
+  const hookedVideos = new WeakSet();
+  const adState = new WeakMap();
+
+  function getPageKey(urlString) {
+    try {
+      const url = new URL(urlString);
+      const host = url.hostname.toLowerCase();
+      if (
+        host !== "youtube.com" &&
+        host !== "www.youtube.com" &&
+        host !== "m.youtube.com"
+      ) {
+        return null;
+      }
+      if (url.pathname === "/watch") {
+        const v = url.searchParams.get("v");
+        if (v) return `watch:${v}`;
+      }
+      if (url.pathname.startsWith("/shorts/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `shorts:${id}`;
+      }
+      if (url.pathname.startsWith("/live/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `live:${id}`;
+      }
+      return `path:${url.pathname}`;
+    } catch {
+      return null;
+    }
+  }
+
+  function getTargetSpeed() {
+    const key = getPageKey(location.href);
+    if (key && pageSpeeds[key] && typeof pageSpeeds[key].speed === "number") {
+      return pageSpeeds[key].speed;
+    }
+    if (key && key.startsWith("shorts:")) {
+      return shortsDefaultSpeed;
+    }
+    return defaultSpeed;
+  }
+
+  function syncSessionStorage(speed) {
+    try {
+      sessionStorage.setItem(
+        "yt-player-playback-rate",
+        JSON.stringify({
+          data: String(speed),
+          creation: Date.now()
+        })
+      );
+    } catch (e) {}
+  }
+
+  function isAdPlaying(video) {
+    const player = video.closest(".html5-video-player");
+    return Boolean(
+      player &&
+        (player.classList.contains("ad-showing") ||
+          player.classList.contains("ad-interrupting"))
+    );
+  }
+
+  function applySpeed(video) {
+    if (!video || isAdPlaying(video)) return;
+    const target = getTargetSpeed();
+    syncSessionStorage(target);
+    if (video.playbackRate !== target) {
+      video.playbackRate = target;
+    }
+  }
+
+  function triggerEnforce(video) {
+    enforceUntil = Date.now() + 1500;
+    applySpeed(video);
+  }
+
+  function applyToAllVideos() {
+    document.querySelectorAll("video").forEach(triggerEnforce);
+  }
+
+  const settingsReady = browser.storage.local
+    .get(["defaultSpeed", "shortsDefaultSpeed", "pageSpeeds"])
+    .then((data) => {
+      if (typeof data.defaultSpeed === "number") {
+        defaultSpeed = data.defaultSpeed;
+      }
+      if (typeof data.shortsDefaultSpeed === "number") {
+        shortsDefaultSpeed = data.shortsDefaultSpeed;
+      }
+      if (data.pageSpeeds && typeof data.pageSpeeds === "object") {
+        pageSpeeds = data.pageSpeeds;
+      }
+      syncSessionStorage(getTargetSpeed());
+      applyToAllVideos();
+    })
+    .catch(() => {
+      syncSessionStorage(getTargetSpeed());
+    });
+
+  // Обновление настроек в реальном времени при изменениях в popup-меню
+  browser.storage.onChanged.addListener((changes, area) => {
+    if (area !== "local") return;
+    if (changes.defaultSpeed && typeof changes.defaultSpeed.newValue === "number") {
+      defaultSpeed = changes.defaultSpeed.newValue;
+    }
+    if (changes.shortsDefaultSpeed && typeof changes.shortsDefaultSpeed.newValue === "number") {
+      shortsDefaultSpeed = changes.shortsDefaultSpeed.newValue;
+    }
+    if (changes.pageSpeeds) {
+      pageSpeeds = changes.pageSpeeds.newValue || {};
+    }
+    applyToAllVideos();
+  });
+
+  // Прямая команда из popup-меню для мгновенного отклика
+  browser.runtime.onMessage.addListener((msg) => {
+    if (msg && msg.type === "APPLY_SPEED") {
+      applyToAllVideos();
+    }
+  });
+
+  function hookVideo(video) {
+    if (hookedVideos.has(video)) return;
+    hookedVideos.add(video);
+
+    video.addEventListener("loadedmetadata", async () => {
+      await settingsReady;
+      triggerEnforce(video);
+    });
+
+    video.addEventListener("playing", async () => {
+      await settingsReady;
+      const inAd = isAdPlaying(video);
+      if (inAd) {
+        adState.set(video, true);
+        return;
+      }
+
+      const wasAd = adState.get(video);
+      if (wasAd || location.href !== lastUrl) {
+        adState.set(video, false);
+        lastUrl = location.href;
+        triggerEnforce(video);
+      }
+    });
+
+    video.addEventListener("ratechange", () => {
+      if (Date.now() < enforceUntil && !isAdPlaying(video)) {
+        const target = getTargetSpeed();
+        if (video.playbackRate !== target) {
+          video.playbackRate = target;
+        }
+      }
+    });
+
+    if (video.readyState >= 1) {
+      lastUrl = location.href;
+      settingsReady.then(() => triggerEnforce(video));
+    }
+  }
+
+  function scanVideos() {
+    document.querySelectorAll("video").forEach(hookVideo);
+  }
+
+  const observer = new MutationObserver(scanVideos);
+
+  if (document.documentElement) {
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+  } else {
+    window.addEventListener("DOMContentLoaded", () => {
+      scanVideos();
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+    });
+  }
+
+  const onNavigate = async () => {
+    lastUrl = "";
+    await settingsReady;
+    scanVideos();
+    applyToAllVideos();
+  };
+
+  window.addEventListener("yt-navigate-finish", onNavigate);
+  window.addEventListener("state-navigateend", onNavigate);
+  window.addEventListener("popstate", onNavigate);
+})();
+=== END OF FILE: непубличный (различается манифестом)\content.js ===
+
+=== FILE: непубличный (различается манифестом)\icon.svg | SIZE: 738 bytes ===
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="88" height="88" rx="22" fill="url(#bg)"/>
+  <path d="M30.3 67.7 A25 25 0 1 1 65.7 67.7" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="7" stroke-linecap="round"/>
+  <path d="M30.3 67.7 A25 25 0 1 1 69.65 37.5" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <line x1="48" y1="50" x2="62.5" y2="41.6" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="48" cy="50" r="6" fill="#ffffff"/>
+</svg>
+=== END OF FILE: непубличный (различается манифестом)\icon.svg ===
+
+=== FILE: непубличный (различается манифестом)\manifest.json | SIZE: 1012 bytes ===
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "1.2.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yt-speed-15x-theurs@gmail.com",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  },
+  "permissions": [
+    "storage",
+    "*://www.youtube.com/*",
+    "*://m.youtube.com/*",
+    "*://youtube.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.svg",
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*",
+        "*://m.youtube.com/*",
+        "*://youtube.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
+=== END OF FILE: непубличный (различается манифестом)\manifest.json ===
+
+=== FILE: непубличный (различается манифестом)\popup.css | SIZE: 3002 bytes ===
+:root {
+  --bg: #f4f5f7;
+  --card: #ffffff;
+  --text: #141518;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --btn-bg: #f1f3f5;
+  --btn-hover: #e5e7eb;
+  --accent: #5b46e5;
+  --accent-soft: rgba(91, 70, 229, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111215;
+    --card: #1b1d22;
+    --text: #f3f4f6;
+    --muted: #9ca3af;
+    --border: #2a2d35;
+    --btn-bg: #252830;
+    --btn-hover: #30343f;
+    --accent: #8b5cf6;
+    --accent-soft: rgba(139, 92, 246, 0.18);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  width: 320px;
+  max-width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 2px 4px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+
+.badge {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: 999px;
+  direction: ltr;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+  max-width: 205px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.speed-btn {
+  appearance: none;
+  border: 1px solid transparent;
+  background: var(--btn-bg);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.08s ease, background 0.15s ease, border-color 0.15s ease;
+  direction: ltr;
+}
+
+.speed-btn:hover {
+  background: var(--btn-hover);
+}
+
+.speed-btn:active {
+  transform: scale(0.96);
+}
+
+.speed-btn.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.link-btn {
+  appearance: none;
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.link-btn.danger {
+  color: var(--muted);
+}
+
+.link-btn:active {
+  background: var(--accent-soft);
+}
+
+.empty-hint {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.4;
+  padding: 4px 0 2px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.hidden {
+  display: none !important;
+}
+=== END OF FILE: непубличный (различается манифестом)\popup.css ===
+
+=== FILE: непубличный (различается манифестом)\popup.html | SIZE: 2106 bytes ===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="appTitle">Playback Speed</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <img src="icon.svg" alt="" class="logo">
+        <span class="title" data-i18n="appTitle">Playback Speed</span>
+      </div>
+      <span id="activeBadge" class="badge">1.5×</span>
+    </header>
+
+    <section id="pageSection" class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="pageSectionTitle">This page</div>
+          <div id="pageSubtitle" class="card-sub" data-i18n="loadingText">Loading...</div>
+        </div>
+        <button id="resetPageBtn" class="link-btn hidden" type="button" data-i18n="resetBtn">Reset</button>
+      </div>
+      <div id="pageSpeedGrid" class="grid"></div>
+      <div id="notYoutubeHint" class="empty-hint hidden" data-i18n="notYoutubeHint">
+        Open a YouTube video to set a custom speed for that page.
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="defaultSectionTitle">Default speed</div>
+          <div class="card-sub" data-i18n="defaultSectionSub">For all new videos</div>
+        </div>
+      </div>
+      <div id="defaultSpeedGrid" class="grid"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="shortsSectionTitle">Shorts default</div>
+          <div class="card-sub" data-i18n="shortsSectionSub">For all new Shorts</div>
+        </div>
+      </div>
+      <div id="shortsSpeedGrid" class="grid"></div>
+    </section>
+
+    <footer id="footerBar" class="footer hidden">
+      <span id="savedCountText"></span>
+      <button id="clearAllBtn" class="link-btn danger" type="button" data-i18n="clearBtn">Clear</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+=== END OF FILE: непубличный (различается манифестом)\popup.html ===
+
+=== FILE: непубличный (различается манифестом)\popup.js | SIZE: 7646 bytes ===
+(() => {
+  const SPEEDS = [1.0, 1.25, 1.5, 1.6, 1.75, 2.0];
+  const MAX_SAVED_PAGES = 500;
+  const FALLBACK_SPEED = 1.5;
+  const FALLBACK_SHORTS_SPEED = 1.0;
+
+  const t = (key, subs) => browser.i18n.getMessage(key, subs) || key;
+
+  document.documentElement.lang = browser.i18n.getUILanguage();
+  document.documentElement.dir = browser.i18n.getMessage("@@bidi_dir") || "ltr";
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const msg = browser.i18n.getMessage(el.dataset.i18n);
+    if (msg) el.textContent = msg;
+  });
+
+  const activeBadge = document.getElementById("activeBadge");
+  const pageSubtitle = document.getElementById("pageSubtitle");
+  const resetPageBtn = document.getElementById("resetPageBtn");
+  const pageSpeedGrid = document.getElementById("pageSpeedGrid");
+  const notYoutubeHint = document.getElementById("notYoutubeHint");
+  const defaultSpeedGrid = document.getElementById("defaultSpeedGrid");
+  const shortsSpeedGrid = document.getElementById("shortsSpeedGrid");
+  const footerBar = document.getElementById("footerBar");
+  const savedCountText = document.getElementById("savedCountText");
+  const clearAllBtn = document.getElementById("clearAllBtn");
+
+  let currentTab = null;
+  let currentPageKey = null;
+  let defaultSpeed = FALLBACK_SPEED;
+  let shortsDefaultSpeed = FALLBACK_SHORTS_SPEED;
+  let pageSpeeds = {};
+
+  function getPageKey(urlString) {
+    try {
+      const url = new URL(urlString);
+      const host = url.hostname.toLowerCase();
+      if (
+        host !== "youtube.com" &&
+        host !== "www.youtube.com" &&
+        host !== "m.youtube.com"
+      ) {
+        return null;
+      }
+      if (url.pathname === "/watch") {
+        const v = url.searchParams.get("v");
+        if (v) return `watch:${v}`;
+      }
+      if (url.pathname.startsWith("/shorts/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `shorts:${id}`;
+      }
+      if (url.pathname.startsWith("/live/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `live:${id}`;
+      }
+      return `path:${url.pathname}`;
+    } catch {
+      return null;
+    }
+  }
+
+  function formatSpeed(speed) {
+    return `${Number(speed)}×`;
+  }
+
+  function prunePages(map) {
+    const entries = Object.entries(map);
+    if (entries.length <= MAX_SAVED_PAGES) return map;
+    entries.sort((a, b) => (b[1]?.updatedAt || 0) - (a[1]?.updatedAt || 0));
+    return Object.fromEntries(entries.slice(0, MAX_SAVED_PAGES));
+  }
+
+  async function notifyCurrentTab() {
+    if (!currentTab || !currentTab.id || !currentPageKey) return;
+    try {
+      await browser.tabs.sendMessage(currentTab.id, { type: "APPLY_SPEED" });
+    } catch {
+      // Вкладка могла ещё не загрузить скрипт
+    }
+  }
+
+  function render() {
+    const savedForPage = currentPageKey ? pageSpeeds[currentPageKey]?.speed : null;
+    const isShorts = Boolean(currentPageKey && currentPageKey.startsWith("shorts:"));
+    const fallbackForPage = isShorts ? shortsDefaultSpeed : defaultSpeed;
+    const effectiveSpeed = typeof savedForPage === "number" ? savedForPage : fallbackForPage;
+
+    activeBadge.textContent = formatSpeed(effectiveSpeed);
+
+    // Блок "Эта страница"
+    if (!currentPageKey) {
+      pageSubtitle.textContent = t("notOnYoutube");
+      pageSpeedGrid.classList.add("hidden");
+      resetPageBtn.classList.add("hidden");
+      notYoutubeHint.classList.remove("hidden");
+    } else {
+      notYoutubeHint.classList.add("hidden");
+      pageSpeedGrid.classList.remove("hidden");
+
+      const cleanTitle = (currentTab?.title || "").replace(/\s*-\s*YouTube$/, "");
+      if (typeof savedForPage === "number") {
+        pageSubtitle.textContent = cleanTitle
+          ? `${t("savedPrefix")} • ${cleanTitle}`
+          : t("savedForPage");
+        resetPageBtn.classList.remove("hidden");
+      } else {
+        pageSubtitle.textContent = cleanTitle
+          ? `${t("defaultPrefix")} • ${cleanTitle}`
+          : t("usingDefault");
+        resetPageBtn.classList.add("hidden");
+      }
+
+      pageSpeedGrid.textContent = "";
+      SPEEDS.forEach((speed) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "speed-btn";
+        if (savedForPage === speed) btn.classList.add("active");
+        btn.textContent = formatSpeed(speed);
+        btn.addEventListener("click", () => setPageSpeed(speed));
+        pageSpeedGrid.appendChild(btn);
+      });
+    }
+
+    // Блок "По умолчанию"
+    defaultSpeedGrid.textContent = "";
+    SPEEDS.forEach((speed) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "speed-btn";
+      if (defaultSpeed === speed) btn.classList.add("active");
+      btn.textContent = formatSpeed(speed);
+      btn.addEventListener("click", () => setDefaultSpeed(speed));
+      defaultSpeedGrid.appendChild(btn);
+    });
+
+    // Блок "По умолчанию для Shorts"
+    shortsSpeedGrid.textContent = "";
+    SPEEDS.forEach((speed) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "speed-btn";
+      if (shortsDefaultSpeed === speed) btn.classList.add("active");
+      btn.textContent = formatSpeed(speed);
+      btn.addEventListener("click", () => setShortsDefaultSpeed(speed));
+      shortsSpeedGrid.appendChild(btn);
+    });
+
+    // Подвал со счётчиком сохранённых страниц
+    const totalSaved = Object.keys(pageSpeeds).length;
+    if (totalSaved > 0) {
+      footerBar.classList.remove("hidden");
+      savedCountText.textContent = t("savedCount", [String(totalSaved)]);
+    } else {
+      footerBar.classList.add("hidden");
+    }
+  }
+
+  async function setPageSpeed(speed) {
+    if (!currentPageKey) return;
+    pageSpeeds[currentPageKey] = {
+      speed,
+      updatedAt: Date.now()
+    };
+    pageSpeeds = prunePages(pageSpeeds);
+    await browser.storage.local.set({ pageSpeeds });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function resetPageSpeed() {
+    if (!currentPageKey || !pageSpeeds[currentPageKey]) return;
+    delete pageSpeeds[currentPageKey];
+    await browser.storage.local.set({ pageSpeeds });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function setDefaultSpeed(speed) {
+    defaultSpeed = speed;
+    await browser.storage.local.set({ defaultSpeed });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function setShortsDefaultSpeed(speed) {
+    shortsDefaultSpeed = speed;
+    await browser.storage.local.set({ shortsDefaultSpeed });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function clearAllPages() {
+    pageSpeeds = {};
+    await browser.storage.local.set({ pageSpeeds });
+    render();
+    await notifyCurrentTab();
+  }
+
+  resetPageBtn.addEventListener("click", resetPageSpeed);
+  clearAllBtn.addEventListener("click", clearAllPages);
+
+  async function init() {
+    const [tabs, stored] = await Promise.all([
+      browser.tabs.query({ active: true, currentWindow: true }),
+      browser.storage.local.get(["defaultSpeed", "shortsDefaultSpeed", "pageSpeeds"])
+    ]);
+
+    currentTab = tabs[0] || null;
+    currentPageKey = currentTab?.url ? getPageKey(currentTab.url) : null;
+
+    if (typeof stored.defaultSpeed === "number") {
+      defaultSpeed = stored.defaultSpeed;
+    }
+    if (typeof stored.shortsDefaultSpeed === "number") {
+      shortsDefaultSpeed = stored.shortsDefaultSpeed;
+    }
+    if (stored.pageSpeeds && typeof stored.pageSpeeds === "object") {
+      pageSpeeds = stored.pageSpeeds;
+    }
+
+    render();
+  }
+
+  init();
+})();
+=== END OF FILE: непубличный (различается манифестом)\popup.js ===
+
+=== FILE: публичный\_locales\ar\messages.json | SIZE: 1597 bytes ===
+{
+  "extName": {
+    "message": "سرعة التشغيل لـ YouTube"
+  },
+  "extDescription": {
+    "message": "تعيين سرعة تشغيل افتراضية على YouTube وحفظ سرعات مخصصة لكل فيديو أو صفحة."
+  },
+  "actionTitle": {
+    "message": "سرعة التشغيل"
+  },
+  "appTitle": {
+    "message": "سرعة التشغيل"
+  },
+  "pageSectionTitle": {
+    "message": "هذه الصفحة"
+  },
+  "loadingText": {
+    "message": "جارٍ التحميل..."
+  },
+  "resetBtn": {
+    "message": "إعادة تعيين"
+  },
+  "notYoutubeHint": {
+    "message": "افتح فيديو على YouTube لتعيين سرعة مخصصة لهذه الصفحة."
+  },
+  "notOnYoutube": {
+    "message": "لست على YouTube"
+  },
+  "savedPrefix": {
+    "message": "محفوظ"
+  },
+  "savedForPage": {
+    "message": "محفوظ لهذه الصفحة"
+  },
+  "defaultPrefix": {
+    "message": "افتراضي"
+  },
+  "usingDefault": {
+    "message": "يستخدم السرعة الافتراضية"
+  },
+  "defaultSectionTitle": {
+    "message": "السرعة الافتراضية"
+  },
+  "defaultSectionSub": {
+    "message": "لجميع الفيديوهات الجديدة"
+  },
+  "shortsSectionTitle": {
+    "message": "الافتراضي لـ Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "لجميع فيديوهات Shorts الجديدة"
+  },
+  "savedCount": {
+    "message": "الصفحات المحفوظة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "مسح"
+  }
+}
+=== END OF FILE: публичный\_locales\ar\messages.json ===
+
+=== FILE: публичный\_locales\cs\messages.json | SIZE: 1428 bytes ===
+{
+  "extName": {
+    "message": "Rychlost přehrávání pro YouTube"
+  },
+  "extDescription": {
+    "message": "Nastavte výchozí rychlost přehrávání na YouTube a ukládejte vlastní rychlosti pro jednotlivá videa nebo stránky."
+  },
+  "actionTitle": {
+    "message": "Rychlost přehrávání"
+  },
+  "appTitle": {
+    "message": "Rychlost přehrávání"
+  },
+  "pageSectionTitle": {
+    "message": "Tato stránka"
+  },
+  "loadingText": {
+    "message": "Načítání..."
+  },
+  "resetBtn": {
+    "message": "Obnovit"
+  },
+  "notYoutubeHint": {
+    "message": "Otevřete video na YouTube a nastavte vlastní rychlost pro tuto stránku."
+  },
+  "notOnYoutube": {
+    "message": "Nejste na YouTube"
+  },
+  "savedPrefix": {
+    "message": "Uloženo"
+  },
+  "savedForPage": {
+    "message": "Uloženo pro tuto stránku"
+  },
+  "defaultPrefix": {
+    "message": "Výchozí"
+  },
+  "usingDefault": {
+    "message": "Používá výchozí rychlost"
+  },
+  "defaultSectionTitle": {
+    "message": "Výchozí rychlost"
+  },
+  "defaultSectionSub": {
+    "message": "Pro všechna nová videa"
+  },
+  "shortsSectionTitle": {
+    "message": "Výchozí pro Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Pro všechna nová Shorts"
+  },
+  "savedCount": {
+    "message": "Uložené stránky: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Vymazat"
+  }
+}
+=== END OF FILE: публичный\_locales\cs\messages.json ===
+
+=== FILE: публичный\_locales\da\messages.json | SIZE: 1365 bytes ===
+{
+  "extName": {
+    "message": "Afspilningshastighed til YouTube"
+  },
+  "extDescription": {
+    "message": "Angiv en standardafspilningshastighed på YouTube, og husk brugerdefinerede hastigheder for hver video eller side."
+  },
+  "actionTitle": {
+    "message": "Afspilningshastighed"
+  },
+  "appTitle": {
+    "message": "Afspilningshastighed"
+  },
+  "pageSectionTitle": {
+    "message": "Denne side"
+  },
+  "loadingText": {
+    "message": "Indlæser..."
+  },
+  "resetBtn": {
+    "message": "Nulstil"
+  },
+  "notYoutubeHint": {
+    "message": "Åbn en YouTube-video for at angive en brugerdefineret hastighed for siden."
+  },
+  "notOnYoutube": {
+    "message": "Ikke på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Gemt"
+  },
+  "savedForPage": {
+    "message": "Gemt for denne side"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Bruger standardhastighed"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighed"
+  },
+  "defaultSectionSub": {
+    "message": "For alle nye videoer"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard for Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "For alle nye Shorts"
+  },
+  "savedCount": {
+    "message": "Gemte sider: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Ryd"
+  }
+}
+=== END OF FILE: публичный\_locales\da\messages.json ===
+
+=== FILE: публичный\_locales\de\messages.json | SIZE: 1447 bytes ===
+{
+  "extName": {
+    "message": "Wiedergabegeschwindigkeit für YouTube"
+  },
+  "extDescription": {
+    "message": "Lege eine Standard-Wiedergabegeschwindigkeit auf YouTube fest und speichere individuelle Geschwindigkeiten pro Video oder Seite."
+  },
+  "actionTitle": {
+    "message": "Wiedergabetempo"
+  },
+  "appTitle": {
+    "message": "Wiedergabetempo"
+  },
+  "pageSectionTitle": {
+    "message": "Diese Seite"
+  },
+  "loadingText": {
+    "message": "Wird geladen..."
+  },
+  "resetBtn": {
+    "message": "Zurücksetzen"
+  },
+  "notYoutubeHint": {
+    "message": "Öffne ein YouTube-Video, um für diese Seite eine eigene Geschwindigkeit festzulegen."
+  },
+  "notOnYoutube": {
+    "message": "Nicht auf YouTube"
+  },
+  "savedPrefix": {
+    "message": "Gespeichert"
+  },
+  "savedForPage": {
+    "message": "Für diese Seite gespeichert"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Verwendet Standardgeschwindigkeit"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardgeschwindigkeit"
+  },
+  "defaultSectionSub": {
+    "message": "Für alle neuen Videos"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard für Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Für alle neuen Shorts"
+  },
+  "savedCount": {
+    "message": "Gespeicherte Seiten: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Löschen"
+  }
+}
+=== END OF FILE: публичный\_locales\de\messages.json ===
+
+=== FILE: публичный\_locales\en\messages.json | SIZE: 1278 bytes ===
+{
+  "extName": {
+    "message": "Playback Speed for YouTube"
+  },
+  "extDescription": {
+    "message": "Set a default playback speed on YouTube and remember custom speeds per video or page."
+  },
+  "actionTitle": {
+    "message": "Playback Speed"
+  },
+  "appTitle": {
+    "message": "Playback Speed"
+  },
+  "pageSectionTitle": {
+    "message": "This page"
+  },
+  "loadingText": {
+    "message": "Loading..."
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "notYoutubeHint": {
+    "message": "Open a YouTube video to set a custom speed for that page."
+  },
+  "notOnYoutube": {
+    "message": "Not on YouTube"
+  },
+  "savedPrefix": {
+    "message": "Saved"
+  },
+  "savedForPage": {
+    "message": "Saved for this page"
+  },
+  "defaultPrefix": {
+    "message": "Default"
+  },
+  "usingDefault": {
+    "message": "Using default speed"
+  },
+  "defaultSectionTitle": {
+    "message": "Default speed"
+  },
+  "defaultSectionSub": {
+    "message": "For all new videos"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts default"
+  },
+  "shortsSectionSub": {
+    "message": "For all new Shorts"
+  },
+  "savedCount": {
+    "message": "Saved pages: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Clear"
+  }
+}
+=== END OF FILE: публичный\_locales\en\messages.json ===
+
+=== FILE: публичный\_locales\es\messages.json | SIZE: 1465 bytes ===
+{
+  "extName": {
+    "message": "Velocidad de reproducción para YouTube"
+  },
+  "extDescription": {
+    "message": "Establece una velocidad de reproducción predeterminada en YouTube y recuerda velocidades personalizadas por video o página."
+  },
+  "actionTitle": {
+    "message": "Velocidad de video"
+  },
+  "appTitle": {
+    "message": "Velocidad de video"
+  },
+  "pageSectionTitle": {
+    "message": "Esta página"
+  },
+  "loadingText": {
+    "message": "Cargando..."
+  },
+  "resetBtn": {
+    "message": "Restablecer"
+  },
+  "notYoutubeHint": {
+    "message": "Abre un video de YouTube para configurar una velocidad personalizada para esa página."
+  },
+  "notOnYoutube": {
+    "message": "No estás en YouTube"
+  },
+  "savedPrefix": {
+    "message": "Guardado"
+  },
+  "savedForPage": {
+    "message": "Guardado para esta página"
+  },
+  "defaultPrefix": {
+    "message": "Predeterminado"
+  },
+  "usingDefault": {
+    "message": "Usando velocidad predeterminada"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocidad predeterminada"
+  },
+  "defaultSectionSub": {
+    "message": "Para todos los videos nuevos"
+  },
+  "shortsSectionTitle": {
+    "message": "Predeterminado para Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Para todos los Shorts nuevos"
+  },
+  "savedCount": {
+    "message": "Páginas guardadas: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Limpiar"
+  }
+}
+=== END OF FILE: публичный\_locales\es\messages.json ===
+
+=== FILE: публичный\_locales\fi\messages.json | SIZE: 1347 bytes ===
+{
+  "extName": {
+    "message": "Toistonopeus YouTubeen"
+  },
+  "extDescription": {
+    "message": "Aseta oletustoistonopeus YouTubessa ja muista mukautetut nopeudet video- tai sivukohtaisesti."
+  },
+  "actionTitle": {
+    "message": "Toistonopeus"
+  },
+  "appTitle": {
+    "message": "Toistonopeus"
+  },
+  "pageSectionTitle": {
+    "message": "Tämä sivu"
+  },
+  "loadingText": {
+    "message": "Ladataan..."
+  },
+  "resetBtn": {
+    "message": "Palauta"
+  },
+  "notYoutubeHint": {
+    "message": "Avaa YouTube-video asettaaksesi mukautetun nopeuden tälle sivulle."
+  },
+  "notOnYoutube": {
+    "message": "Et ole YouTubessa"
+  },
+  "savedPrefix": {
+    "message": "Tallennettu"
+  },
+  "savedForPage": {
+    "message": "Tallennettu tälle sivulle"
+  },
+  "defaultPrefix": {
+    "message": "Oletus"
+  },
+  "usingDefault": {
+    "message": "Käytetään oletusnopeutta"
+  },
+  "defaultSectionTitle": {
+    "message": "Oletusnopeus"
+  },
+  "defaultSectionSub": {
+    "message": "Kaikille uusille videoille"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts-oletus"
+  },
+  "shortsSectionSub": {
+    "message": "Kaikille uusille Shorts-videoille"
+  },
+  "savedCount": {
+    "message": "Tallennetut sivut: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Tyhjennä"
+  }
+}
+=== END OF FILE: публичный\_locales\fi\messages.json ===
+
+=== FILE: публичный\_locales\fr\messages.json | SIZE: 1444 bytes ===
+{
+  "extName": {
+    "message": "Vitesse de lecture pour YouTube"
+  },
+  "extDescription": {
+    "message": "Définissez une vitesse de lecture par défaut sur YouTube et mémorisez des vitesses personnalisées par vidéo ou par page."
+  },
+  "actionTitle": {
+    "message": "Vitesse vidéo"
+  },
+  "appTitle": {
+    "message": "Vitesse vidéo"
+  },
+  "pageSectionTitle": {
+    "message": "Cette page"
+  },
+  "loadingText": {
+    "message": "Chargement..."
+  },
+  "resetBtn": {
+    "message": "Réinitialiser"
+  },
+  "notYoutubeHint": {
+    "message": "Ouvrez une vidéo YouTube pour définir une vitesse personnalisée pour cette page."
+  },
+  "notOnYoutube": {
+    "message": "Pas sur YouTube"
+  },
+  "savedPrefix": {
+    "message": "Enregistré"
+  },
+  "savedForPage": {
+    "message": "Enregistré pour cette page"
+  },
+  "defaultPrefix": {
+    "message": "Par défaut"
+  },
+  "usingDefault": {
+    "message": "Utilise la vitesse par défaut"
+  },
+  "defaultSectionTitle": {
+    "message": "Vitesse par défaut"
+  },
+  "defaultSectionSub": {
+    "message": "Pour toutes les nouvelles vidéos"
+  },
+  "shortsSectionTitle": {
+    "message": "Par défaut pour Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Pour tous les nouveaux Shorts"
+  },
+  "savedCount": {
+    "message": "Pages enregistrées : $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Effacer"
+  }
+}
+=== END OF FILE: публичный\_locales\fr\messages.json ===
+
+=== FILE: публичный\_locales\hi\messages.json | SIZE: 1950 bytes ===
+{
+  "extName": {
+    "message": "YouTube के लिए प्लेबैक स्पीड"
+  },
+  "extDescription": {
+    "message": "YouTube पर डिफ़ॉल्ट प्लेबैक स्पीड सेट करें और हर वीडियो या पेज के लिए अलग स्पीड याद रखें।"
+  },
+  "actionTitle": {
+    "message": "प्लेबैक स्पीड"
+  },
+  "appTitle": {
+    "message": "प्लेबैक स्पीड"
+  },
+  "pageSectionTitle": {
+    "message": "यह पेज"
+  },
+  "loadingText": {
+    "message": "लोड हो रहा है..."
+  },
+  "resetBtn": {
+    "message": "रीसेट करें"
+  },
+  "notYoutubeHint": {
+    "message": "इस पेज के लिए अलग स्पीड सेट करने हेतु YouTube वीडियो खोलें।"
+  },
+  "notOnYoutube": {
+    "message": "YouTube पर नहीं"
+  },
+  "savedPrefix": {
+    "message": "सहेजा गया"
+  },
+  "savedForPage": {
+    "message": "इस पेज के लिए सहेजा गया"
+  },
+  "defaultPrefix": {
+    "message": "डिफ़ॉल्ट"
+  },
+  "usingDefault": {
+    "message": "डिफ़ॉल्ट स्पीड का उपयोग हो रहा है"
+  },
+  "defaultSectionTitle": {
+    "message": "डिफ़ॉल्ट स्पीड"
+  },
+  "defaultSectionSub": {
+    "message": "सभी नए वीडियो के लिए"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts के लिए डिफ़ॉल्ट"
+  },
+  "shortsSectionSub": {
+    "message": "सभी नए Shorts के लिए"
+  },
+  "savedCount": {
+    "message": "सहेजे गए पेज: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "साफ़ करें"
+  }
+}
+=== END OF FILE: публичный\_locales\hi\messages.json ===
+
+=== FILE: публичный\_locales\id\messages.json | SIZE: 1367 bytes ===
+{
+  "extName": {
+    "message": "Kecepatan Pemutaran untuk YouTube"
+  },
+  "extDescription": {
+    "message": "Atur kecepatan pemutaran default di YouTube dan simpan kecepatan khusus untuk setiap video atau halaman."
+  },
+  "actionTitle": {
+    "message": "Kecepatan Putar"
+  },
+  "appTitle": {
+    "message": "Kecepatan Putar"
+  },
+  "pageSectionTitle": {
+    "message": "Halaman ini"
+  },
+  "loadingText": {
+    "message": "Memuat..."
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "notYoutubeHint": {
+    "message": "Buka video YouTube untuk mengatur kecepatan khusus bagi halaman ini."
+  },
+  "notOnYoutube": {
+    "message": "Tidak di YouTube"
+  },
+  "savedPrefix": {
+    "message": "Tersimpan"
+  },
+  "savedForPage": {
+    "message": "Tersimpan untuk halaman ini"
+  },
+  "defaultPrefix": {
+    "message": "Default"
+  },
+  "usingDefault": {
+    "message": "Menggunakan kecepatan default"
+  },
+  "defaultSectionTitle": {
+    "message": "Kecepatan default"
+  },
+  "defaultSectionSub": {
+    "message": "Untuk semua video baru"
+  },
+  "shortsSectionTitle": {
+    "message": "Default untuk Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Untuk semua Shorts baru"
+  },
+  "savedCount": {
+    "message": "Halaman tersimpan: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Hapus"
+  }
+}
+=== END OF FILE: публичный\_locales\id\messages.json ===
+
+=== FILE: публичный\_locales\it\messages.json | SIZE: 1426 bytes ===
+{
+  "extName": {
+    "message": "Velocità di riproduzione per YouTube"
+  },
+  "extDescription": {
+    "message": "Imposta una velocità di riproduzione predefinita su YouTube e ricorda le velocità personalizzate per ogni video o pagina."
+  },
+  "actionTitle": {
+    "message": "Velocità video"
+  },
+  "appTitle": {
+    "message": "Velocità video"
+  },
+  "pageSectionTitle": {
+    "message": "Questa pagina"
+  },
+  "loadingText": {
+    "message": "Caricamento..."
+  },
+  "resetBtn": {
+    "message": "Ripristina"
+  },
+  "notYoutubeHint": {
+    "message": "Apri un video di YouTube per impostare una velocità personalizzata per questa pagina."
+  },
+  "notOnYoutube": {
+    "message": "Non sei su YouTube"
+  },
+  "savedPrefix": {
+    "message": "Salvato"
+  },
+  "savedForPage": {
+    "message": "Salvato per questa pagina"
+  },
+  "defaultPrefix": {
+    "message": "Predefinita"
+  },
+  "usingDefault": {
+    "message": "Usa velocità predefinita"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocità predefinita"
+  },
+  "defaultSectionSub": {
+    "message": "Per tutti i nuovi video"
+  },
+  "shortsSectionTitle": {
+    "message": "Predefinita per Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Per tutti i nuovi Shorts"
+  },
+  "savedCount": {
+    "message": "Pagine salvate: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Cancella"
+  }
+}
+=== END OF FILE: публичный\_locales\it\messages.json ===
+
+=== FILE: публичный\_locales\ja\messages.json | SIZE: 1492 bytes ===
+{
+  "extName": {
+    "message": "YouTube用再生速度コントロール"
+  },
+  "extDescription": {
+    "message": "YouTubeのデフォルト再生速度を設定し、動画やページごとのカスタム速度を記憶します。"
+  },
+  "actionTitle": {
+    "message": "再生速度"
+  },
+  "appTitle": {
+    "message": "再生速度"
+  },
+  "pageSectionTitle": {
+    "message": "このページ"
+  },
+  "loadingText": {
+    "message": "読み込み中..."
+  },
+  "resetBtn": {
+    "message": "リセット"
+  },
+  "notYoutubeHint": {
+    "message": "このページ専用の速度を設定するには、YouTubeの動画を開いてください。"
+  },
+  "notOnYoutube": {
+    "message": "YouTube以外"
+  },
+  "savedPrefix": {
+    "message": "保存済み"
+  },
+  "savedForPage": {
+    "message": "このページ用に保存済み"
+  },
+  "defaultPrefix": {
+    "message": "デフォルト"
+  },
+  "usingDefault": {
+    "message": "デフォルト速度を使用中"
+  },
+  "defaultSectionTitle": {
+    "message": "デフォルト速度"
+  },
+  "defaultSectionSub": {
+    "message": "すべての新しい動画に適用"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts のデフォルト"
+  },
+  "shortsSectionSub": {
+    "message": "すべての新しい Shorts に適用"
+  },
+  "savedCount": {
+    "message": "保存済みページ: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "消去"
+  }
+}
+=== END OF FILE: публичный\_locales\ja\messages.json ===
+
+=== FILE: публичный\_locales\ko\messages.json | SIZE: 1411 bytes ===
+{
+  "extName": {
+    "message": "YouTube용 재생 속도"
+  },
+  "extDescription": {
+    "message": "YouTube 기본 재생 속도를 설정하고 동영상 또는 페이지별 사용자 지정 속도를 기억합니다."
+  },
+  "actionTitle": {
+    "message": "재생 속도"
+  },
+  "appTitle": {
+    "message": "재생 속도"
+  },
+  "pageSectionTitle": {
+    "message": "현재 페이지"
+  },
+  "loadingText": {
+    "message": "불러오는 중..."
+  },
+  "resetBtn": {
+    "message": "초기화"
+  },
+  "notYoutubeHint": {
+    "message": "이 페이지의 개별 속도를 설정하려면 YouTube 동영상을 여세요."
+  },
+  "notOnYoutube": {
+    "message": "YouTube가 아님"
+  },
+  "savedPrefix": {
+    "message": "저장됨"
+  },
+  "savedForPage": {
+    "message": "이 페이지에 저장됨"
+  },
+  "defaultPrefix": {
+    "message": "기본값"
+  },
+  "usingDefault": {
+    "message": "기본 속도 사용 중"
+  },
+  "defaultSectionTitle": {
+    "message": "기본 속도"
+  },
+  "defaultSectionSub": {
+    "message": "모든 새 동영상에 적용"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts 기본 속도"
+  },
+  "shortsSectionSub": {
+    "message": "모든 새 Shorts에 적용"
+  },
+  "savedCount": {
+    "message": "저장된 페이지: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "지우기"
+  }
+}
+=== END OF FILE: публичный\_locales\ko\messages.json ===
+
+=== FILE: публичный\_locales\nl\messages.json | SIZE: 1376 bytes ===
+{
+  "extName": {
+    "message": "Afspeelsnelheid voor YouTube"
+  },
+  "extDescription": {
+    "message": "Stel een standaard afspeelsnelheid in op YouTube en onthoud aangepaste snelheden per video of pagina."
+  },
+  "actionTitle": {
+    "message": "Afspeelsnelheid"
+  },
+  "appTitle": {
+    "message": "Afspeelsnelheid"
+  },
+  "pageSectionTitle": {
+    "message": "Deze pagina"
+  },
+  "loadingText": {
+    "message": "Laden..."
+  },
+  "resetBtn": {
+    "message": "Herstellen"
+  },
+  "notYoutubeHint": {
+    "message": "Open een YouTube-video om een eigen snelheid voor deze pagina in te stellen."
+  },
+  "notOnYoutube": {
+    "message": "Niet op YouTube"
+  },
+  "savedPrefix": {
+    "message": "Opgeslagen"
+  },
+  "savedForPage": {
+    "message": "Opgeslagen voor deze pagina"
+  },
+  "defaultPrefix": {
+    "message": "Standaard"
+  },
+  "usingDefault": {
+    "message": "Gebruikt standaardsnelheid"
+  },
+  "defaultSectionTitle": {
+    "message": "Standaardsnelheid"
+  },
+  "defaultSectionSub": {
+    "message": "Voor alle nieuwe video's"
+  },
+  "shortsSectionTitle": {
+    "message": "Standaard voor Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Voor alle nieuwe Shorts"
+  },
+  "savedCount": {
+    "message": "Opgeslagen pagina's: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Wissen"
+  }
+}
+=== END OF FILE: публичный\_locales\nl\messages.json ===
+
+=== FILE: публичный\_locales\no\messages.json | SIZE: 1368 bytes ===
+{
+  "extName": {
+    "message": "Avspillingshastighet for YouTube"
+  },
+  "extDescription": {
+    "message": "Angi en standard avspillingshastighet på YouTube og husk egendefinerte hastigheter for hver video eller side."
+  },
+  "actionTitle": {
+    "message": "Avspillingshastighet"
+  },
+  "appTitle": {
+    "message": "Avspillingshastighet"
+  },
+  "pageSectionTitle": {
+    "message": "Denne siden"
+  },
+  "loadingText": {
+    "message": "Laster..."
+  },
+  "resetBtn": {
+    "message": "Tilbakestill"
+  },
+  "notYoutubeHint": {
+    "message": "Åpne en YouTube-video for å angi en egendefinert hastighet for siden."
+  },
+  "notOnYoutube": {
+    "message": "Ikke på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Lagret"
+  },
+  "savedForPage": {
+    "message": "Lagret for denne siden"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Bruker standardhastighet"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighet"
+  },
+  "defaultSectionSub": {
+    "message": "For alle nye videoer"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard for Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "For alle nye Shorts"
+  },
+  "savedCount": {
+    "message": "Lagrede sider: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Tøm"
+  }
+}
+=== END OF FILE: публичный\_locales\no\messages.json ===
+
+=== FILE: публичный\_locales\pl\messages.json | SIZE: 1414 bytes ===
+{
+  "extName": {
+    "message": "Prędkość odtwarzania dla YouTube"
+  },
+  "extDescription": {
+    "message": "Ustaw domyślną prędkość odtwarzania na YouTube i zapamiętuj własne prędkości dla poszczególnych filmów lub stron."
+  },
+  "actionTitle": {
+    "message": "Prędkość wideo"
+  },
+  "appTitle": {
+    "message": "Prędkość wideo"
+  },
+  "pageSectionTitle": {
+    "message": "Ta strona"
+  },
+  "loadingText": {
+    "message": "Ładowanie..."
+  },
+  "resetBtn": {
+    "message": "Resetuj"
+  },
+  "notYoutubeHint": {
+    "message": "Otwórz film na YouTube, aby ustawić własną prędkość dla tej strony."
+  },
+  "notOnYoutube": {
+    "message": "Poza YouTube"
+  },
+  "savedPrefix": {
+    "message": "Zapisano"
+  },
+  "savedForPage": {
+    "message": "Zapisano dla tej strony"
+  },
+  "defaultPrefix": {
+    "message": "Domyślna"
+  },
+  "usingDefault": {
+    "message": "Używa domyślnej prędkości"
+  },
+  "defaultSectionTitle": {
+    "message": "Domyślna prędkość"
+  },
+  "defaultSectionSub": {
+    "message": "Dla wszystkich nowych filmów"
+  },
+  "shortsSectionTitle": {
+    "message": "Domyślna dla Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Dla wszystkich nowych Shorts"
+  },
+  "savedCount": {
+    "message": "Zapisane strony: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Wyczyść"
+  }
+}
+=== END OF FILE: публичный\_locales\pl\messages.json ===
+
+=== FILE: публичный\_locales\pt\messages.json | SIZE: 1417 bytes ===
+{
+  "extName": {
+    "message": "Velocidade de reprodução para YouTube"
+  },
+  "extDescription": {
+    "message": "Defina uma velocidade de reprodução padrão no YouTube e memorize velocidades personalizadas por vídeo ou página."
+  },
+  "actionTitle": {
+    "message": "Velocidade do vídeo"
+  },
+  "appTitle": {
+    "message": "Velocidade do vídeo"
+  },
+  "pageSectionTitle": {
+    "message": "Esta página"
+  },
+  "loadingText": {
+    "message": "Carregando..."
+  },
+  "resetBtn": {
+    "message": "Redefinir"
+  },
+  "notYoutubeHint": {
+    "message": "Abra um vídeo do YouTube para definir uma velocidade personalizada para esta página."
+  },
+  "notOnYoutube": {
+    "message": "Fora do YouTube"
+  },
+  "savedPrefix": {
+    "message": "Salvo"
+  },
+  "savedForPage": {
+    "message": "Salvo para esta página"
+  },
+  "defaultPrefix": {
+    "message": "Padrão"
+  },
+  "usingDefault": {
+    "message": "Usando velocidade padrão"
+  },
+  "defaultSectionTitle": {
+    "message": "Velocidade padrão"
+  },
+  "defaultSectionSub": {
+    "message": "Para todos os novos vídeos"
+  },
+  "shortsSectionTitle": {
+    "message": "Padrão para Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Para todos os novos Shorts"
+  },
+  "savedCount": {
+    "message": "Páginas salvas: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Limpar"
+  }
+}
+=== END OF FILE: публичный\_locales\pt\messages.json ===
+
+=== FILE: публичный\_locales\ru\messages.json | SIZE: 1689 bytes ===
+{
+  "extName": {
+    "message": "Контроль скорости для YouTube"
+  },
+  "extDescription": {
+    "message": "Скорость на YouTube по умолчанию и запоминание скорости отдельно для каждой страницы или видео."
+  },
+  "actionTitle": {
+    "message": "Скорость YouTube"
+  },
+  "appTitle": {
+    "message": "Скорость видео"
+  },
+  "pageSectionTitle": {
+    "message": "Эта страница"
+  },
+  "loadingText": {
+    "message": "Загрузка..."
+  },
+  "resetBtn": {
+    "message": "Сбросить"
+  },
+  "notYoutubeHint": {
+    "message": "Откройте видео на YouTube, чтобы задать скорость отдельно для страницы"
+  },
+  "notOnYoutube": {
+    "message": "Не на YouTube"
+  },
+  "savedPrefix": {
+    "message": "Сохранено"
+  },
+  "savedForPage": {
+    "message": "Сохранено для этой страницы"
+  },
+  "defaultPrefix": {
+    "message": "По умолчанию"
+  },
+  "usingDefault": {
+    "message": "Использует скорость по умолчанию"
+  },
+  "defaultSectionTitle": {
+    "message": "По умолчанию"
+  },
+  "defaultSectionSub": {
+    "message": "Для всех новых видео"
+  },
+  "shortsSectionTitle": {
+    "message": "Для Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Для всех новых Shorts"
+  },
+  "savedCount": {
+    "message": "Сохранено страниц: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Очистить"
+  }
+}
+=== END OF FILE: публичный\_locales\ru\messages.json ===
+
+=== FILE: публичный\_locales\sv\messages.json | SIZE: 1381 bytes ===
+{
+  "extName": {
+    "message": "Uppspelningshastighet för YouTube"
+  },
+  "extDescription": {
+    "message": "Ange en standardhastighet för uppspelning på YouTube och kom ihåg anpassade hastigheter per video eller sida."
+  },
+  "actionTitle": {
+    "message": "Uppspelningshastighet"
+  },
+  "appTitle": {
+    "message": "Uppspelningshastighet"
+  },
+  "pageSectionTitle": {
+    "message": "Denna sida"
+  },
+  "loadingText": {
+    "message": "Läser in..."
+  },
+  "resetBtn": {
+    "message": "Återställ"
+  },
+  "notYoutubeHint": {
+    "message": "Öppna en YouTube-video för att ange en anpassad hastighet för sidan."
+  },
+  "notOnYoutube": {
+    "message": "Inte på YouTube"
+  },
+  "savedPrefix": {
+    "message": "Sparad"
+  },
+  "savedForPage": {
+    "message": "Sparad för denna sida"
+  },
+  "defaultPrefix": {
+    "message": "Standard"
+  },
+  "usingDefault": {
+    "message": "Använder standardhastighet"
+  },
+  "defaultSectionTitle": {
+    "message": "Standardhastighet"
+  },
+  "defaultSectionSub": {
+    "message": "För alla nya videor"
+  },
+  "shortsSectionTitle": {
+    "message": "Standard för Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "För alla nya Shorts"
+  },
+  "savedCount": {
+    "message": "Sparade sidor: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Rensa"
+  }
+}
+=== END OF FILE: публичный\_locales\sv\messages.json ===
+
+=== FILE: публичный\_locales\tr\messages.json | SIZE: 1402 bytes ===
+{
+  "extName": {
+    "message": "YouTube için Oynatma Hızı"
+  },
+  "extDescription": {
+    "message": "YouTube'da varsayılan bir oynatma hızı ayarlayın ve her video veya sayfa için özel hızları hatırlayın."
+  },
+  "actionTitle": {
+    "message": "Oynatma Hızı"
+  },
+  "appTitle": {
+    "message": "Oynatma Hızı"
+  },
+  "pageSectionTitle": {
+    "message": "Bu sayfa"
+  },
+  "loadingText": {
+    "message": "Yükleniyor..."
+  },
+  "resetBtn": {
+    "message": "Sıfırla"
+  },
+  "notYoutubeHint": {
+    "message": "Bu sayfa için özel bir hız belirlemek üzere bir YouTube videosu açın."
+  },
+  "notOnYoutube": {
+    "message": "YouTube'da değil"
+  },
+  "savedPrefix": {
+    "message": "Kaydedildi"
+  },
+  "savedForPage": {
+    "message": "Bu sayfa için kaydedildi"
+  },
+  "defaultPrefix": {
+    "message": "Varsayılan"
+  },
+  "usingDefault": {
+    "message": "Varsayılan hız kullanılıyor"
+  },
+  "defaultSectionTitle": {
+    "message": "Varsayılan hız"
+  },
+  "defaultSectionSub": {
+    "message": "Tüm yeni videolar için"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts varsayılanı"
+  },
+  "shortsSectionSub": {
+    "message": "Tüm yeni Shorts videoları için"
+  },
+  "savedCount": {
+    "message": "Kaydedilen sayfalar: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Temizle"
+  }
+}
+=== END OF FILE: публичный\_locales\tr\messages.json ===
+
+=== FILE: публичный\_locales\zh\messages.json | SIZE: 1336 bytes ===
+{
+  "extName": {
+    "message": "YouTube 播放速度控制"
+  },
+  "extDescription": {
+    "message": "设置 YouTube 的默认播放速度，并为单个视频或页面记住自定义速度。"
+  },
+  "actionTitle": {
+    "message": "播放速度"
+  },
+  "appTitle": {
+    "message": "播放速度"
+  },
+  "pageSectionTitle": {
+    "message": "当前页面"
+  },
+  "loadingText": {
+    "message": "加载中..."
+  },
+  "resetBtn": {
+    "message": "重置"
+  },
+  "notYoutubeHint": {
+    "message": "打开一个 YouTube 视频即可为该页面单独设置播放速度。"
+  },
+  "notOnYoutube": {
+    "message": "不在 YouTube"
+  },
+  "savedPrefix": {
+    "message": "已保存"
+  },
+  "savedForPage": {
+    "message": "已为此页面保存"
+  },
+  "defaultPrefix": {
+    "message": "默认"
+  },
+  "usingDefault": {
+    "message": "正在使用默认速度"
+  },
+  "defaultSectionTitle": {
+    "message": "默认速度"
+  },
+  "defaultSectionSub": {
+    "message": "适用于所有新视频"
+  },
+  "shortsSectionTitle": {
+    "message": "Shorts 默认速度"
+  },
+  "shortsSectionSub": {
+    "message": "适用于所有新的 Shorts"
+  },
+  "savedCount": {
+    "message": "已保存页面：$COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "清除"
+  }
+}
+=== END OF FILE: публичный\_locales\zh\messages.json ===
+
+=== FILE: публичный\content.js | SIZE: 5775 bytes ===
+(() => {
+  const FALLBACK_SPEED = 1.5;
+  const FALLBACK_SHORTS_SPEED = 1.0;
+
+  let defaultSpeed = FALLBACK_SPEED;
+  let shortsDefaultSpeed = FALLBACK_SHORTS_SPEED;
+  let pageSpeeds = {};
+  let lastUrl = "";
+  let enforceUntil = 0;
+
+  const hookedVideos = new WeakSet();
+  const adState = new WeakMap();
+
+  function getPageKey(urlString) {
+    try {
+      const url = new URL(urlString);
+      const host = url.hostname.toLowerCase();
+      if (
+        host !== "youtube.com" &&
+        host !== "www.youtube.com" &&
+        host !== "m.youtube.com"
+      ) {
+        return null;
+      }
+      if (url.pathname === "/watch") {
+        const v = url.searchParams.get("v");
+        if (v) return `watch:${v}`;
+      }
+      if (url.pathname.startsWith("/shorts/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `shorts:${id}`;
+      }
+      if (url.pathname.startsWith("/live/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `live:${id}`;
+      }
+      return `path:${url.pathname}`;
+    } catch {
+      return null;
+    }
+  }
+
+  function getTargetSpeed() {
+    const key = getPageKey(location.href);
+    if (key && pageSpeeds[key] && typeof pageSpeeds[key].speed === "number") {
+      return pageSpeeds[key].speed;
+    }
+    if (key && key.startsWith("shorts:")) {
+      return shortsDefaultSpeed;
+    }
+    return defaultSpeed;
+  }
+
+  function syncSessionStorage(speed) {
+    try {
+      sessionStorage.setItem(
+        "yt-player-playback-rate",
+        JSON.stringify({
+          data: String(speed),
+          creation: Date.now()
+        })
+      );
+    } catch (e) {}
+  }
+
+  function isAdPlaying(video) {
+    const player = video.closest(".html5-video-player");
+    return Boolean(
+      player &&
+        (player.classList.contains("ad-showing") ||
+          player.classList.contains("ad-interrupting"))
+    );
+  }
+
+  function applySpeed(video) {
+    if (!video || isAdPlaying(video)) return;
+    const target = getTargetSpeed();
+    syncSessionStorage(target);
+    if (video.playbackRate !== target) {
+      video.playbackRate = target;
+    }
+  }
+
+  function triggerEnforce(video) {
+    enforceUntil = Date.now() + 1500;
+    applySpeed(video);
+  }
+
+  function applyToAllVideos() {
+    document.querySelectorAll("video").forEach(triggerEnforce);
+  }
+
+  const settingsReady = browser.storage.local
+    .get(["defaultSpeed", "shortsDefaultSpeed", "pageSpeeds"])
+    .then((data) => {
+      if (typeof data.defaultSpeed === "number") {
+        defaultSpeed = data.defaultSpeed;
+      }
+      if (typeof data.shortsDefaultSpeed === "number") {
+        shortsDefaultSpeed = data.shortsDefaultSpeed;
+      }
+      if (data.pageSpeeds && typeof data.pageSpeeds === "object") {
+        pageSpeeds = data.pageSpeeds;
+      }
+      syncSessionStorage(getTargetSpeed());
+      applyToAllVideos();
+    })
+    .catch(() => {
+      syncSessionStorage(getTargetSpeed());
+    });
+
+  // Обновление настроек в реальном времени при изменениях в popup-меню
+  browser.storage.onChanged.addListener((changes, area) => {
+    if (area !== "local") return;
+    if (changes.defaultSpeed && typeof changes.defaultSpeed.newValue === "number") {
+      defaultSpeed = changes.defaultSpeed.newValue;
+    }
+    if (changes.shortsDefaultSpeed && typeof changes.shortsDefaultSpeed.newValue === "number") {
+      shortsDefaultSpeed = changes.shortsDefaultSpeed.newValue;
+    }
+    if (changes.pageSpeeds) {
+      pageSpeeds = changes.pageSpeeds.newValue || {};
+    }
+    applyToAllVideos();
+  });
+
+  // Прямая команда из popup-меню для мгновенного отклика
+  browser.runtime.onMessage.addListener((msg) => {
+    if (msg && msg.type === "APPLY_SPEED") {
+      applyToAllVideos();
+    }
+  });
+
+  function hookVideo(video) {
+    if (hookedVideos.has(video)) return;
+    hookedVideos.add(video);
+
+    video.addEventListener("loadedmetadata", async () => {
+      await settingsReady;
+      triggerEnforce(video);
+    });
+
+    video.addEventListener("playing", async () => {
+      await settingsReady;
+      const inAd = isAdPlaying(video);
+      if (inAd) {
+        adState.set(video, true);
+        return;
+      }
+
+      const wasAd = adState.get(video);
+      if (wasAd || location.href !== lastUrl) {
+        adState.set(video, false);
+        lastUrl = location.href;
+        triggerEnforce(video);
+      }
+    });
+
+    video.addEventListener("ratechange", () => {
+      if (Date.now() < enforceUntil && !isAdPlaying(video)) {
+        const target = getTargetSpeed();
+        if (video.playbackRate !== target) {
+          video.playbackRate = target;
+        }
+      }
+    });
+
+    if (video.readyState >= 1) {
+      lastUrl = location.href;
+      settingsReady.then(() => triggerEnforce(video));
+    }
+  }
+
+  function scanVideos() {
+    document.querySelectorAll("video").forEach(hookVideo);
+  }
+
+  const observer = new MutationObserver(scanVideos);
+
+  if (document.documentElement) {
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+  } else {
+    window.addEventListener("DOMContentLoaded", () => {
+      scanVideos();
+      observer.observe(document.documentElement, { childList: true, subtree: true });
+    });
+  }
+
+  const onNavigate = async () => {
+    lastUrl = "";
+    await settingsReady;
+    scanVideos();
+    applyToAllVideos();
+  };
+
+  window.addEventListener("yt-navigate-finish", onNavigate);
+  window.addEventListener("state-navigateend", onNavigate);
+  window.addEventListener("popstate", onNavigate);
+})();
+=== END OF FILE: публичный\content.js ===
+
+=== FILE: публичный\icon.svg | SIZE: 738 bytes ===
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="88" height="88" rx="22" fill="url(#bg)"/>
+  <path d="M30.3 67.7 A25 25 0 1 1 65.7 67.7" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="7" stroke-linecap="round"/>
+  <path d="M30.3 67.7 A25 25 0 1 1 69.65 37.5" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <line x1="48" y1="50" x2="62.5" y2="41.6" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="48" cy="50" r="6" fill="#ffffff"/>
+</svg>
+=== END OF FILE: публичный\icon.svg ===
+
+=== FILE: публичный\manifest.json | SIZE: 1017 bytes ===
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "playback-speed-yt-theurs@gmail.com",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  },
+  "permissions": [
+    "storage",
+    "*://www.youtube.com/*",
+    "*://m.youtube.com/*",
+    "*://youtube.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.svg",
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*",
+        "*://m.youtube.com/*",
+        "*://youtube.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
+=== END OF FILE: публичный\manifest.json ===
+
+=== FILE: публичный\popup.css | SIZE: 3002 bytes ===
+:root {
+  --bg: #f4f5f7;
+  --card: #ffffff;
+  --text: #141518;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --btn-bg: #f1f3f5;
+  --btn-hover: #e5e7eb;
+  --accent: #5b46e5;
+  --accent-soft: rgba(91, 70, 229, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111215;
+    --card: #1b1d22;
+    --text: #f3f4f6;
+    --muted: #9ca3af;
+    --border: #2a2d35;
+    --btn-bg: #252830;
+    --btn-hover: #30343f;
+    --accent: #8b5cf6;
+    --accent-soft: rgba(139, 92, 246, 0.18);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  width: 320px;
+  max-width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 2px 4px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+
+.badge {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: 999px;
+  direction: ltr;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+  max-width: 205px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.speed-btn {
+  appearance: none;
+  border: 1px solid transparent;
+  background: var(--btn-bg);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.08s ease, background 0.15s ease, border-color 0.15s ease;
+  direction: ltr;
+}
+
+.speed-btn:hover {
+  background: var(--btn-hover);
+}
+
+.speed-btn:active {
+  transform: scale(0.96);
+}
+
+.speed-btn.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.link-btn {
+  appearance: none;
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.link-btn.danger {
+  color: var(--muted);
+}
+
+.link-btn:active {
+  background: var(--accent-soft);
+}
+
+.empty-hint {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.4;
+  padding: 4px 0 2px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.hidden {
+  display: none !important;
+}
+=== END OF FILE: публичный\popup.css ===
+
+=== FILE: публичный\popup.html | SIZE: 2106 bytes ===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="appTitle">Playback Speed</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <img src="icon.svg" alt="" class="logo">
+        <span class="title" data-i18n="appTitle">Playback Speed</span>
+      </div>
+      <span id="activeBadge" class="badge">1.5×</span>
+    </header>
+
+    <section id="pageSection" class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="pageSectionTitle">This page</div>
+          <div id="pageSubtitle" class="card-sub" data-i18n="loadingText">Loading...</div>
+        </div>
+        <button id="resetPageBtn" class="link-btn hidden" type="button" data-i18n="resetBtn">Reset</button>
+      </div>
+      <div id="pageSpeedGrid" class="grid"></div>
+      <div id="notYoutubeHint" class="empty-hint hidden" data-i18n="notYoutubeHint">
+        Open a YouTube video to set a custom speed for that page.
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="defaultSectionTitle">Default speed</div>
+          <div class="card-sub" data-i18n="defaultSectionSub">For all new videos</div>
+        </div>
+      </div>
+      <div id="defaultSpeedGrid" class="grid"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <div>
+          <div class="card-title" data-i18n="shortsSectionTitle">Shorts default</div>
+          <div class="card-sub" data-i18n="shortsSectionSub">For all new Shorts</div>
+        </div>
+      </div>
+      <div id="shortsSpeedGrid" class="grid"></div>
+    </section>
+
+    <footer id="footerBar" class="footer hidden">
+      <span id="savedCountText"></span>
+      <button id="clearAllBtn" class="link-btn danger" type="button" data-i18n="clearBtn">Clear</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+=== END OF FILE: публичный\popup.html ===
+
+=== FILE: публичный\popup.js | SIZE: 7646 bytes ===
+(() => {
+  const SPEEDS = [1.0, 1.25, 1.5, 1.6, 1.75, 2.0];
+  const MAX_SAVED_PAGES = 500;
+  const FALLBACK_SPEED = 1.5;
+  const FALLBACK_SHORTS_SPEED = 1.0;
+
+  const t = (key, subs) => browser.i18n.getMessage(key, subs) || key;
+
+  document.documentElement.lang = browser.i18n.getUILanguage();
+  document.documentElement.dir = browser.i18n.getMessage("@@bidi_dir") || "ltr";
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const msg = browser.i18n.getMessage(el.dataset.i18n);
+    if (msg) el.textContent = msg;
+  });
+
+  const activeBadge = document.getElementById("activeBadge");
+  const pageSubtitle = document.getElementById("pageSubtitle");
+  const resetPageBtn = document.getElementById("resetPageBtn");
+  const pageSpeedGrid = document.getElementById("pageSpeedGrid");
+  const notYoutubeHint = document.getElementById("notYoutubeHint");
+  const defaultSpeedGrid = document.getElementById("defaultSpeedGrid");
+  const shortsSpeedGrid = document.getElementById("shortsSpeedGrid");
+  const footerBar = document.getElementById("footerBar");
+  const savedCountText = document.getElementById("savedCountText");
+  const clearAllBtn = document.getElementById("clearAllBtn");
+
+  let currentTab = null;
+  let currentPageKey = null;
+  let defaultSpeed = FALLBACK_SPEED;
+  let shortsDefaultSpeed = FALLBACK_SHORTS_SPEED;
+  let pageSpeeds = {};
+
+  function getPageKey(urlString) {
+    try {
+      const url = new URL(urlString);
+      const host = url.hostname.toLowerCase();
+      if (
+        host !== "youtube.com" &&
+        host !== "www.youtube.com" &&
+        host !== "m.youtube.com"
+      ) {
+        return null;
+      }
+      if (url.pathname === "/watch") {
+        const v = url.searchParams.get("v");
+        if (v) return `watch:${v}`;
+      }
+      if (url.pathname.startsWith("/shorts/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `shorts:${id}`;
+      }
+      if (url.pathname.startsWith("/live/")) {
+        const id = url.pathname.split("/")[2];
+        if (id) return `live:${id}`;
+      }
+      return `path:${url.pathname}`;
+    } catch {
+      return null;
+    }
+  }
+
+  function formatSpeed(speed) {
+    return `${Number(speed)}×`;
+  }
+
+  function prunePages(map) {
+    const entries = Object.entries(map);
+    if (entries.length <= MAX_SAVED_PAGES) return map;
+    entries.sort((a, b) => (b[1]?.updatedAt || 0) - (a[1]?.updatedAt || 0));
+    return Object.fromEntries(entries.slice(0, MAX_SAVED_PAGES));
+  }
+
+  async function notifyCurrentTab() {
+    if (!currentTab || !currentTab.id || !currentPageKey) return;
+    try {
+      await browser.tabs.sendMessage(currentTab.id, { type: "APPLY_SPEED" });
+    } catch {
+      // Вкладка могла ещё не загрузить скрипт
+    }
+  }
+
+  function render() {
+    const savedForPage = currentPageKey ? pageSpeeds[currentPageKey]?.speed : null;
+    const isShorts = Boolean(currentPageKey && currentPageKey.startsWith("shorts:"));
+    const fallbackForPage = isShorts ? shortsDefaultSpeed : defaultSpeed;
+    const effectiveSpeed = typeof savedForPage === "number" ? savedForPage : fallbackForPage;
+
+    activeBadge.textContent = formatSpeed(effectiveSpeed);
+
+    // Блок "Эта страница"
+    if (!currentPageKey) {
+      pageSubtitle.textContent = t("notOnYoutube");
+      pageSpeedGrid.classList.add("hidden");
+      resetPageBtn.classList.add("hidden");
+      notYoutubeHint.classList.remove("hidden");
+    } else {
+      notYoutubeHint.classList.add("hidden");
+      pageSpeedGrid.classList.remove("hidden");
+
+      const cleanTitle = (currentTab?.title || "").replace(/\s*-\s*YouTube$/, "");
+      if (typeof savedForPage === "number") {
+        pageSubtitle.textContent = cleanTitle
+          ? `${t("savedPrefix")} • ${cleanTitle}`
+          : t("savedForPage");
+        resetPageBtn.classList.remove("hidden");
+      } else {
+        pageSubtitle.textContent = cleanTitle
+          ? `${t("defaultPrefix")} • ${cleanTitle}`
+          : t("usingDefault");
+        resetPageBtn.classList.add("hidden");
+      }
+
+      pageSpeedGrid.textContent = "";
+      SPEEDS.forEach((speed) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "speed-btn";
+        if (savedForPage === speed) btn.classList.add("active");
+        btn.textContent = formatSpeed(speed);
+        btn.addEventListener("click", () => setPageSpeed(speed));
+        pageSpeedGrid.appendChild(btn);
+      });
+    }
+
+    // Блок "По умолчанию"
+    defaultSpeedGrid.textContent = "";
+    SPEEDS.forEach((speed) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "speed-btn";
+      if (defaultSpeed === speed) btn.classList.add("active");
+      btn.textContent = formatSpeed(speed);
+      btn.addEventListener("click", () => setDefaultSpeed(speed));
+      defaultSpeedGrid.appendChild(btn);
+    });
+
+    // Блок "По умолчанию для Shorts"
+    shortsSpeedGrid.textContent = "";
+    SPEEDS.forEach((speed) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "speed-btn";
+      if (shortsDefaultSpeed === speed) btn.classList.add("active");
+      btn.textContent = formatSpeed(speed);
+      btn.addEventListener("click", () => setShortsDefaultSpeed(speed));
+      shortsSpeedGrid.appendChild(btn);
+    });
+
+    // Подвал со счётчиком сохранённых страниц
+    const totalSaved = Object.keys(pageSpeeds).length;
+    if (totalSaved > 0) {
+      footerBar.classList.remove("hidden");
+      savedCountText.textContent = t("savedCount", [String(totalSaved)]);
+    } else {
+      footerBar.classList.add("hidden");
+    }
+  }
+
+  async function setPageSpeed(speed) {
+    if (!currentPageKey) return;
+    pageSpeeds[currentPageKey] = {
+      speed,
+      updatedAt: Date.now()
+    };
+    pageSpeeds = prunePages(pageSpeeds);
+    await browser.storage.local.set({ pageSpeeds });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function resetPageSpeed() {
+    if (!currentPageKey || !pageSpeeds[currentPageKey]) return;
+    delete pageSpeeds[currentPageKey];
+    await browser.storage.local.set({ pageSpeeds });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function setDefaultSpeed(speed) {
+    defaultSpeed = speed;
+    await browser.storage.local.set({ defaultSpeed });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function setShortsDefaultSpeed(speed) {
+    shortsDefaultSpeed = speed;
+    await browser.storage.local.set({ shortsDefaultSpeed });
+    render();
+    await notifyCurrentTab();
+  }
+
+  async function clearAllPages() {
+    pageSpeeds = {};
+    await browser.storage.local.set({ pageSpeeds });
+    render();
+    await notifyCurrentTab();
+  }
+
+  resetPageBtn.addEventListener("click", resetPageSpeed);
+  clearAllBtn.addEventListener("click", clearAllPages);
+
+  async function init() {
+    const [tabs, stored] = await Promise.all([
+      browser.tabs.query({ active: true, currentWindow: true }),
+      browser.storage.local.get(["defaultSpeed", "shortsDefaultSpeed", "pageSpeeds"])
+    ]);
+
+    currentTab = tabs[0] || null;
+    currentPageKey = currentTab?.url ? getPageKey(currentTab.url) : null;
+
+    if (typeof stored.defaultSpeed === "number") {
+      defaultSpeed = stored.defaultSpeed;
+    }
+    if (typeof stored.shortsDefaultSpeed === "number") {
+      shortsDefaultSpeed = stored.shortsDefaultSpeed;
+    }
+    if (stored.pageSpeeds && typeof stored.pageSpeeds === "object") {
+      pageSpeeds = stored.pageSpeeds;
+    }
+
+    render();
+  }
+
+  init();
+})();
+=== END OF FILE: публичный\popup.js ===

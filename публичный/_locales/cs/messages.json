@@ -1,0 +1,64 @@
+{
+  "extName": {
+    "message": "Rychlost přehrávání pro YouTube"
+  },
+  "extDescription": {
+    "message": "Nastavte výchozí rychlost přehrávání na YouTube a ukládejte vlastní rychlosti pro jednotlivá videa nebo stránky."
+  },
+  "actionTitle": {
+    "message": "Rychlost přehrávání"
+  },
+  "appTitle": {
+    "message": "Rychlost přehrávání"
+  },
+  "pageSectionTitle": {
+    "message": "Tato stránka"
+  },
+  "loadingText": {
+    "message": "Načítání..."
+  },
+  "resetBtn": {
+    "message": "Obnovit"
+  },
+  "notYoutubeHint": {
+    "message": "Otevřete video na YouTube a nastavte vlastní rychlost pro tuto stránku."
+  },
+  "notOnYoutube": {
+    "message": "Nejste na YouTube"
+  },
+  "savedPrefix": {
+    "message": "Uloženo"
+  },
+  "savedForPage": {
+    "message": "Uloženo pro tuto stránku"
+  },
+  "defaultPrefix": {
+    "message": "Výchozí"
+  },
+  "usingDefault": {
+    "message": "Používá výchozí rychlost"
+  },
+  "defaultSectionTitle": {
+    "message": "Výchozí rychlost"
+  },
+  "defaultSectionSub": {
+    "message": "Pro všechna nová videa"
+  },
+  "shortsSectionTitle": {
+    "message": "Výchozí pro Shorts"
+  },
+  "shortsSectionSub": {
+    "message": "Pro všechna nová Shorts"
+  },
+  "savedCount": {
+    "message": "Uložené stránky: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "clearBtn": {
+    "message": "Vymazat"
+  }
+}
